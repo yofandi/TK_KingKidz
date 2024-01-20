@@ -22,7 +22,7 @@
             <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent" id="mynav">
                 <div class="container">
                     <!-- logo -->
-                    <a class="navbar-brand fs-4" href="#"><img src="assets/image/Logo_KingsKid.png" alt="Bootstrap" width="60" height="45">TK King's Kidz</a>
+                    <a class="navbar-brand fs-4" href="index.php"><img src="assets/image/Logo_KingsKid.png" alt="Bootstrap" width="60" height="45">TK King's Kidz</a>
                     <!-- toggle button -->
                     <button class="navbar-toggler shaddow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -39,15 +39,15 @@
                         <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
                             <ul class="navbar-nav justify-content-center fs-5 flex-grow-1 pe-3">
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                                    <a class="nav-link active" aria-current="page" href="index.php">Beranda</a>
                                 </li>
                                 <!-- Profile dropdown -->
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#Profile" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown">Profile</a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="#">Sejarah</a></li>
-                                        <li><a class="dropdown-item" href="#">Visi & Misi</a></li>
-                                        <li><a class="dropdown-item" href="#">Tentang kami</a></li>
+                                        <li><a class="dropdown-item" href="history.php">Sejarah</a></li>
+                                        <li><a class="dropdown-item" href="visi.php">Visi & Misi</a></li>
+                                        <li><a class="dropdown-item" href="perihalkami.php">Tentang kami</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item mx-2">

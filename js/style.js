@@ -1,11 +1,13 @@
 $(document).ready(function () {
-    $(this).scroll(function(){
-        if($(document).scrollTop() > 200) {
+    $(this).scroll(function () {
+        if ($(document).scrollTop() > 200) {
             $("#mynav").removeClass('bg-transparent');
-            $("#mynav").addClass('bg-dark');
+            $("#mynav").addClass('bg-danger');
+
+            $('#textLogoKk').removeClass('text-danger').addClass('text-dark');
         } else {
-            $("#mynav").removeClass('bg-dark');
+            $("#mynav").removeClass('bg-danger');
             $("#mynav").addClass('bg-transparent');
         }
-      });
+    });
 });

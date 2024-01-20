@@ -122,6 +122,17 @@ p {
     background-repeat: no-repeat;
 }
 
+.tk-bgvisi {
+    height: 120vh;
+    max-height: 120vh;
+    background: var(--background) rgba(255, 252, 252, 0);  
+    padding: 100px 0;
+    background-blend-mode: multiply;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .social {
     list-style: none;
     padding: 0;
@@ -144,11 +155,19 @@ p {
     }
 }
 
+.navbar-dark .navbar-toggler-icon {
+    background-color: #f1f3f500;
+}
+
+.bg-visimisi {
+    background: #ffdd00;
+    background: linear-gradient(135deg, #ffdd00 0%, #c98806 100%);
+}
+
 .bg-gradient-warning-to-secondary {
     background: #f5b30c;
     background: linear-gradient(135deg, #f5b30c 0%, #e21e80 100%);
 }
-
 
 .text-gradient {
     background: -webkit-linear-gradient(315deg, #f5b30c 0%, #e21e80 100%);
@@ -293,7 +312,7 @@ p {
 }
 
 .navbar-toggler-icon {
-    background-color: #495057;
+    background-color: #aaaaaa;
     /* Warna ikon toggler */
 }
 
@@ -343,4 +362,73 @@ p {
 .text-secondary {
     --bs-text-opacity: 1;
     color: rgba(226, 30, 128), var(--bs-text-opacity) !important;
+}
+
+.mt-6 {
+    margin-top: 8rem !important;
+}
+
+@media (max-width: 1165px) {
+    .logoTKhover {
+        display: none;
+    }
+}
+
+/* Custom CSS vertikal kanan-kiri Timeline dengan Dots */
+.timeline {
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 60%;
+    width: 2px;
+    background: #f5b30c;
+    background: linear-gradient(135deg, #f5b30c 0%, #e21e80 100%);
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.timeline-dot {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    width: 20px;
+    height: 20px;
+    background-color: #f5b30c;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.timeline-item {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeline-item-content {
+    padding-left: 5%;
+    max-width: 60%;
+}
+
+.timeline-item-date {
+    flex: 0 0 30%;
+    text-align: right;
+    color: #6c757d;
+}
+
+.timeline-item-img {
+    width: 100px;
+    /* Sesuaikan lebar gambar sesuai kebutuhan */
+    height: auto;
+    border-radius: 8px;
+    overflow: hidden;
 }
