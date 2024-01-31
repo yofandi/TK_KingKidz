@@ -40,23 +40,26 @@
                                     <a class="nav-link" aria-current="page" href="index.php">Beranda</a>
                                 </li>
                                 <!-- Profile dropdown -->
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle active" href="#Profile" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown">Profile</a>
+                                <!-- <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#Profile" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown">Profile</a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item active" href="history.php">Sejarah</a></li>
-                                        <li><a class="dropdown-item" href="visi.php">Visi & Misi</a></li>
-                                        <li><a class="dropdown-item" href="perihalkami.php">Tentang kami</a></li>
+                                        <li><a class="dropdown-item" href=""></a></li>
+                                        <li><a class="dropdown-item" href=""></a></li>
+                                        <li><a class="dropdown-item" href=""></a></li>
                                     </ul>
+                                </li> -->
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link active" href="history.php">Sejarah</a>
                                 </li>
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link" href="#About">Sekilas</a>
-                                </li>
-                                <li class="nav-item mx-2">
-                                    <a class="nav-link" href="#Partner">Kerjasama</a>
+                                    <a class="nav-link" href="visi.php">Visi & Misi</a>
                                 </li>
 
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link" href="#Contact">Kontak</a>
+                                    <a class="nav-link" href="perihalkami.php">Tentang kami</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link" href="kontak.php">Kontak</a>
                                 </li>
                             </ul>
                             <!-- login / sign up -->
@@ -81,13 +84,13 @@
                 <div class="row d-flex">
                     <div class="col-lg-8 ps-2" id="contentHistory">
                         <p class="text-muted">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis amet excepturi, quaerat consequatur error esse maiores in cupiditate sed nemo iure fugit qui veritatis perferendis voluptas accusamus. Dolor, optio totam! Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi dolorem nesciunt eum amet sunt pariatur voluptatibus, architecto deserunt vel, aspernatur laudantium! Sed, qui obcaecati quibusdam molestias saepe deserunt suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, impedit debitis? Earum voluptatibus itaque eos cupiditate blanditiis optio voluptates magnam omnis voluptate. Hic ipsa commodi natus earum praesentium rem ullam.
+                            King's Kidz didirikan pada bulan Oktober 2008. Kami memulai tahun ajaran baru kami cukup mepet di awal Januari 2009. Ini merupakan kali pertama King's Kidz menempati lokasi, bertempat di Satelit Indah. Pembentukan sekolah ini berawal dari visi pribadi Ibu Ruth Julia selaku Founder yang berdasarkan pengalaman pribadi beliau yang berasal dari keluarga dengan keterbatasan keuangan. Sepanjang masa SMA dan kuliah, beliau bertemu dengan individu baik hati yang memberikan beasiswa, dan yang terakhir memberi beasiswa kuliah hingga selesai.
                         </p>
                         <p class="text-muted">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis amet excepturi, quaerat consequatur error esse maiores in cupiditate sed nemo iure fugit qui veritatis perferendis voluptas accusamus. Dolor, optio totam! Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi dolorem nesciunt eum amet sunt pariatur voluptatibus, architecto deserunt vel, aspernatur laudantium! Sed, qui obcaecati quibusdam molestias saepe deserunt suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, impedit debitis? Earum voluptatibus itaque eos cupiditate blanditiis optio voluptates magnam omnis voluptate. Hic ipsa commodi natus earum praesentium rem ullam.
+                            Sebagai ungkapan terima kasih, beliau bercita-cita membuat sekolah gratis. Dari situlah muncul visi untuk membuat sekolah gratis, King's Kidz. Meskipun hanya Taman kanak-kanak, harapan beliau adalah bahwa orang tua dapat meringankan beban mereka terkait pendidikan anak-anak mereka.
                         </p>
                         <p class="text-muted">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis amet excepturi, quaerat consequatur error esse maiores in cupiditate sed nemo iure fugit qui veritatis perferendis voluptas accusamus. Dolor, optio totam! Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi dolorem nesciunt eum amet sunt pariatur voluptatibus, architecto deserunt vel, aspernatur laudantium! Sed, qui obcaecati quibusdam molestias saepe deserunt suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, impedit debitis? Earum voluptatibus itaque eos cupiditate blanditiis optio voluptates magnam omnis voluptate. Hic ipsa commodi natus earum praesentium rem ullam.
+                            Mungkin bertanya-tanya mengapa "King's Kidz"? Dengan nama ini, kami ingin menyampaikan gagasan bahwa anak-anak ini adalah bangsawan dan berharga di mata TUHAN. Meskipun gratis, komitmen kami adalah memberikan pendidikan terbaik dengan fasilitas yang sangat baik. "Gratis" tidak berarti rendah kualitas. Sejak awal, visi kami adalah memberikan pendidikan terbaik dengan fasilitas berkualitas, bukan fasilitas rendahan hanya karena gratis. Inilah inti dari King's Kidz.
                         </p>
                     </div>
                     <div class="col-lg-4 logoTKhover">
@@ -171,12 +174,39 @@
             </div>
         </div>
 
+        <!-- penjelasan founder -->
+        <section class="py-5">
+            <div class="container px-5 mb-5">
+                <div class="text-center mb-5">
+                    <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Founder</span></h1>
+                </div>
+                <div class="row gx-5">
+                    <div class="col justify-content-center">
+                        <!-- Project Card 1-->
+                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="px-5">
+                                        <h2 class="fw-bolder">Pendiri & Pemilik</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis natus nesciunt deleniti sit veniam adipisci? Non rem reiciendis qui iusto neque soluta id, quia obcaecati in quo facilis dolores atque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, consequuntur, quo autem temporibus molestiae eius soluta accusamus eum excepturi ducimus consequatur minus sunt. Dolores eius earum distinctio atque, voluptatibus repellendus.</p>
+                                    </div>
+                                    <img class="img-fluid" src="assets/image/Bu_RutJulia.png" alt="Founder TK King's Kidz">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- kunjungi instagram  -->
         <section class="py-5 bg-gradient-warning-to-secondary text-white">
             <div class="container px-5 my-5">
                 <div class="text-center">
                     <h2 class="fs-4 fw-bolder">Kunjungi instagram kami untuk menjelajah kegiatan kami lebih lanjut <br><br>
-                    <a href="" class="text-white fs-1"><i class="bi bi-instagram"></i></a></h2>
+                        <a href="" class="text-white fs-1"><i class="bi bi-instagram"></i></a>
+                    </h2>
                     <!-- <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Contact me</a> -->
                 </div>
             </div>

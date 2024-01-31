@@ -42,23 +42,26 @@
                                     <a class="nav-link active" aria-current="page" href="index.php">Beranda</a>
                                 </li>
                                 <!-- Profile dropdown -->
-                                <li class="nav-item dropdown">
+                                <!-- <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#Profile" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown">Profile</a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="history.php">Sejarah</a></li>
-                                        <li><a class="dropdown-item" href="visi.php">Visi & Misi</a></li>
-                                        <li><a class="dropdown-item" href="perihalkami.php">Tentang kami</a></li>
+                                        <li><a class="dropdown-item" href=""></a></li>
+                                        <li><a class="dropdown-item" href=""></a></li>
+                                        <li><a class="dropdown-item" href=""></a></li>
                                     </ul>
+                                </li> -->
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link" href="history.php">Sejarah</a>
                                 </li>
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link" href="#About">Sekilas</a>
-                                </li>
-                                <li class="nav-item mx-2">
-                                    <a class="nav-link" href="#Partner">Kerjasama</a>
+                                    <a class="nav-link" href="visi.php">Visi & Misi</a>
                                 </li>
 
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link" href="#Contact">Kontak</a>
+                                    <a class="nav-link" href="perihalkami.php">Tentang kami</a>
+                                </li>                                
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link" href="kontak.php">Kontak</a>
                                 </li>
                             </ul>
                             <!-- login / sign up -->
@@ -98,6 +101,7 @@
             </header>
         </div>
 
+        <!-- contact -->
         <div class="bg-body-tertiary" style=" height: 80px; width: auto">
             <div class="container-fluid">
                 <div class="row justify-content-center bg-danger">
@@ -115,6 +119,7 @@
             </div>
         </div>
 
+        <!-- sekilas -->
         <section class="bg-light py-5" id="About">
             <div class="container">
                 <div class="row">
@@ -143,6 +148,7 @@
             </div>
         </section>
 
+        <!-- sekolah kami -->
         <section class="py-5 bg-gradient-warning-to-secondary text-white">
             <div class="container px-5 my-5">
                 <div class="text-center">

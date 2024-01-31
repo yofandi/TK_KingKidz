@@ -28,7 +28,7 @@
 
                     <!-- sidebar -->
                     <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                        <!-- sidebar div -->
+                        <!-- sidebar header -->
                         <div class="offcanvas-header text-white border-bottom">
                             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">King's Kidz</h5>
                             <button type="button" class="btn-close btn-close-white shaddow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -40,23 +40,26 @@
                                     <a class="nav-link" aria-current="page" href="index.php">Beranda</a>
                                 </li>
                                 <!-- Profile dropdown -->
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle active" href="#Profile" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown">Profile</a>
+                                <!-- <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#Profile" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown">Profile</a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="history.php">Sejarah</a></li>
-                                        <li><a class="dropdown-item active" href="visi.php">Visi & Misi</a></li>
-                                        <li><a class="dropdown-item" href="perihalkami.php">Tentang kami</a></li>
+                                        <li><a class="dropdown-item" href=""></a></li>
+                                        <li><a class="dropdown-item" href=""></a></li>
+                                        <li><a class="dropdown-item" href=""></a></li>
                                     </ul>
+                                </li> -->
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link" href="history.php">Sejarah</a>
                                 </li>
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link" href="#About">Sekilas</a>
-                                </li>
-                                <li class="nav-item mx-2">
-                                    <a class="nav-link" href="#Partner">Kerjasama</a>
+                                    <a class="nav-link active" href="visi.php">Visi & Misi</a>
                                 </li>
 
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link" href="#Contact">Kontak</a>
+                                    <a class="nav-link" href="perihalkami.php">Tentang kami</a>
+                                </li>                                
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link" href="kontak.php">Kontak</a>
                                 </li>
                             </ul>
                             <!-- login / sign up -->

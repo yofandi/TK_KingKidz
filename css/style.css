@@ -21,7 +21,6 @@ body {
     max-width: 100%;
     -webkit-text-size-adjust: 100%;
     /* overflow: -moz-scrollbars-vertical;
-    overflow-x: hidden;
     overflow-y: auto; */
 }
 
@@ -125,7 +124,26 @@ p {
 .tk-bgvisi {
     height: 120vh;
     max-height: 120vh;
-    background: var(--background) rgba(255, 252, 252, 0);  
+    background: var(--background) rgba(255, 252, 252, 0);
+    padding: 100px 0;
+    background-blend-mode: multiply;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tk-bgabout {
+    height: 35vh;
+    background: var(--background) rgba(255, 252, 252, 0);
+    padding: 100px 0;
+    background-blend-mode: multiply;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tk-bgaboutme {
+    background: var(--background) rgba(255, 252, 252, 0);
     padding: 100px 0;
     background-blend-mode: multiply;
     background-position: center center;
@@ -167,6 +185,13 @@ p {
 .bg-gradient-warning-to-secondary {
     background: #f5b30c;
     background: linear-gradient(135deg, #f5b30c 0%, #e21e80 100%);
+}
+
+.btn-gradient {
+    background: linear-gradient(90deg, #f5b30c, #e21e80);
+    color: #fff;
+    border-color: #fff;
+    /* Warna border agar menyatu dengan background */
 }
 
 .text-gradient {
@@ -431,4 +456,42 @@ p {
     height: auto;
     border-radius: 8px;
     overflow: hidden;
+}
+
+.nav-tabs {
+    border: none;
+    border-image-slice: 1;
+    border-image-width: 0 0 2px 0;
+}
+
+.nav-tabs .nav-item {
+    position: relative;
+    margin-left: 10px;
+}
+
+.nav-tabs .nav-link {
+    border-top: 2px solid rgba(255, 0, 0, 0.556);
+    border-radius: 0;
+    border-radius: 375rem;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    color: #000000;
+    /* Warna teks tab saat tidak aktif */
+}
+
+.nav-tabs .active::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    border-radius: 300rem;
+    background: linear-gradient(to right, #f5b30c, #e21e80);
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link:hover {
+    color: #fbfbfb;
+    background: #ff8c00;
+    /* Ganti warna sesuai keinginan Anda */
 }
