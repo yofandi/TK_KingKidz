@@ -73,6 +73,29 @@
             </nav>
         </div>
 
+        <!-- penjelasan sejarah -->
+        <header class="py-5 bg-danger">
+            <div class="container-fluid my-5">
+                <div class="row text-center text-lg-start align-items-center justify-content-center">
+                    <div class="col-lg-4 mb-3 mb-lg-0">
+                        <img src="assets/8728865.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-8">
+                        <h4 class="display-5 lead text-white mt-3 mt-lg-0">TK King's Kidz</h4>
+                        <h1 class="display-1 fw-bolder"><span class="text-white d-inline">Sejarah</span></h1>
+                        <div class="text-white">
+                            <p class="fs-5">
+                                Growing In Excellent
+                            </p>
+                            <p class="lead">
+                                Kami mengundang Anda untuk menjelajahi setiap momen, kejadian, dan pencapaian yang telah membentuk identitas dan perjalanan kami hingga saat ini.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
         <!-- history -->
         <section class="bg-light py-5">
             <!-- halaman penjelasan sejarah -->
@@ -96,11 +119,6 @@
                     <div class="col-lg-4 logoTKhover">
                         <div class="container justify-content-center">
                             <img class="img-fluid" style="height: 50vh; width: auto" src="assets/image/logo-fulllvers.png" alt="">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="ps-5">
-                            <img class="img-fluid" style="height: 50vh; width: auto" src="https://wallpapers.com/images/featured/school-btqdsrc8abryyar1.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -175,30 +193,29 @@
         </div>
 
         <!-- penjelasan founder -->
-        <section class="py-5">
+        <section class="py-5 bg-light">
             <div class="container px-5 mb-5">
                 <div class="text-center mb-5">
                     <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Founder</span></h1>
                 </div>
                 <div class="row gx-5">
-                    <div class="col justify-content-center">
+                    <div class="col-md-8">
                         <!-- Project Card 1-->
-                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
-                            <div class="card-body p-0">
-                                <div class="d-flex align-items-center">
-                                    <div class="px-5">
-                                        <h2 class="fw-bolder">Pendiri & Pemilik</h2>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis natus nesciunt deleniti sit veniam adipisci? Non rem reiciendis qui iusto neque soluta id, quia obcaecati in quo facilis dolores atque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, consequuntur, quo autem temporibus molestiae eius soluta accusamus eum excepturi ducimus consequatur minus sunt. Dolores eius earum distinctio atque, voluptatibus repellendus.</p>
-                                    </div>
-                                    <img class="img-fluid" src="assets/image/Bu_RutJulia.png" alt="Founder TK King's Kidz">
-                                </div>
+                        <div class="d-flex align-items-center">
+                            <div class="px-5">
+                                <h2 class="fw-bolder">Pendiri & Pemilik</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis natus nesciunt deleniti sit veniam adipisci? Non rem reiciendis qui iusto neque soluta id, quia obcaecati in quo facilis dolores atque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, consequuntur, quo autem temporibus molestiae eius soluta accusamus eum excepturi ducimus consequatur minus sunt. Dolores eius earum distinctio atque, voluptatibus repellendus.</p>
                             </div>
                         </div>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+                        <img class="img-fluid rounded" src="assets/image/Bu_RutJulia.png" alt="Founder TK King's Kidz">
                     </div>
                 </div>
             </div>
         </section>
+
 
         <!-- kunjungi instagram  -->
         <section class="py-5 bg-gradient-warning-to-secondary text-white">
