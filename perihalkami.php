@@ -8,6 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
+    <!-- Lightbox CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.css" rel="stylesheet">
+
     <!-- style page -->
     <link rel="stylesheet" href="css/style.css">
     <title>Tentang King's Kidz</title>
@@ -168,125 +171,157 @@
                     Fasilitas
                 </h3>
 
-                <div class="d-flex row align-items-center justify-content-center">
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG_20240123_122154.jpg" alt="fasilitas" style="width: 200px;">
+                <div class="container py-5">
+                    <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+                        <div class="col mb-3">
+                            <div class="card border-0">
+                                <div class="card-body text-center">
+                                    <a href="assets/image/IMG_20240123_122154.jpg" class="lightbox" data-gallery="gallery1">
+                                        <img class="img-fluid rounded" src="assets/image/IMG_20240123_122154.jpg" alt="Fasilitas 1">
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG_20240123_122504.jpg" alt="fasilitas" style="width: 200px;">
+                        <div class="col mb-3">
+                            <div class="card border-0">
+                                <div class="card-body text-center">
+                                    <a href="assets/image/IMG_20240123_122504.jpg" class="lightbox" data-gallery="gallery1">
+                                        <img class="img-fluid rounded" src="assets/image/IMG_20240123_122504.jpg" alt="fasilitas">
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG_20240123_122721.jpg" alt="fasilitas" style="width: 200px;">
+                        <div class="col mb-3">
+                            <div class="card border-0">
+                                <div class="card-body text-center">
+                                    <a href="assets/image/IMG_20240123_122721.jpg" class="lightbox" data-gallery="gallery1">
+                                        <img class="img-fluid rounded" src="assets/image/IMG_20240123_122721.jpg" alt="fasilitas">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="card border-0">
+                                <div class="card-body text-center">
+                                    <a href="assets/image/IMG_20240123_123021.jpg" class="lightbox" data-gallery="gallery2">
+                                        <img class="img-fluid rounded" src="assets/image/IMG_20240123_123021.jpg" alt="fasilitas2">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="card border-0">
+                                <div class="card-body text-center">
+                                    <a href="assets/image/IMG_20240123_123128.jpg" class="lightbox" data-gallery="gallery2">
+                                        <img class="img-fluid rounded" src="assets/image/IMG_20240123_123128.jpg" alt="fasilitas2">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="card border-0">
+                                <div class="card-body text-center">
+                                    <a href="assets/image/IMG_20240129_092054.jpg" class="lightbox" data-gallery="gallery2">
+                                        <img class="img-fluid rounded" src="assets/image/IMG_20240129_092054.jpg" alt="fasilitas2">
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="d-flex row align-items-center justify-content-center">
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG_20240123_123021.jpg" alt="fasilitas" style="width: 200px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG_20240123_123128.jpg" alt="fasilitas" style="width: 200px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG_20240129_092054.jpg" alt="fasilitas" style="width: 200px;">
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <!-- end fasilitas -->
 
                 <h3 class="py-4 mb-4 fst-italic text-gradient border-bottom">
                     Kegiatan
                 </h3>
-                <div class="d-flex row align-items-center justify-content-center">
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG_20151102_085538.jpg" alt="fasilitas" style="width: 200px;">
+                <div class="container py-5">
+                    <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+                        <div class="col mb-3">
+                            <div class="card border-0">
+                                <div class="card-body text-center">
+                                    <a href="assets/image/IMG_20151102_085538.jpg" class="lightbox" data-gallery="gallery1">
+                                        <img class="img-fluid rounded" src="assets/image/IMG_20151102_085538.jpg" alt="Fasilitas 1">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="card border-0">
+                                <div class="card-body text-center">
+                                    <a href="assets/image/IMG_20151102_085026.jpg" class="lightbox" data-gallery="gallery1">
+                                        <img class="img-fluid rounded" src="assets/image/IMG_20151102_085026.jpg" alt="Fasilitas 1">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="card border-0">
+                                <div class="card-body text-center">
+                                    <a href="assets/image/IMG_20151102_100149.jpg" class="lightbox" data-gallery="gallery1">
+                                        <img class="img-fluid rounded" src="assets/image/IMG_20151102_100149.jpg" alt="Fasilitas 1">
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG_20151102_085026.jpg" alt="fasilitas" style="width: 200px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG_20151102_100149.jpg" alt="fasilitas" style="width: 200px;">
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="d-flex row align-items-center justify-content-center">
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG_20230126_141255.jpg" alt="fasilitas" style="width: 200px;">
+                    <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+                        <div class="col mb-3">
+                            <div class="card border-0">
+                                <div class="card-body text-center">
+                                    <a href="assets/image/IMG_20230126_141255.jpg" class="lightbox" data-gallery="gallery1">
+                                        <img class="img-fluid rounded" src="assets/image/IMG_20230126_141255.jpg" alt="Fasilitas 1">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="card border-0">
+                                <div class="card-body text-center">
+                                    <a href="assets/image/IMG_20231214_083833.jpg" class="lightbox" data-gallery="gallery1">
+                                        <img class="img-fluid rounded" src="assets/image/IMG_20231214_083833.jpg" alt="Fasilitas 1">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="card border-0">
+                                <div class="card-body text-center">
+                                    <a href="assets/image/IMG_20231214_085449.jpg" class="lightbox" data-gallery="gallery1">
+                                        <img class="img-fluid rounded" src="assets/image/IMG_20231214_085449.jpg" alt="Fasilitas 1">
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG_20231214_083833.jpg" alt="fasilitas" style="width: 200px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG_20231214_085449.jpg" alt="fasilitas" style="width: 200px;">
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="d-flex row align-items-center justify-content-center">
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG_20240118_112455.jpg" alt="fasilitas" style="width: 200px;">
+                    <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+                        <div class="col mb-3">
+                            <div class="card border-0">
+                                <div class="card-body text-center">
+                                    <a href="assets/image/IMG_20240118_112455.jpg" class="lightbox" data-gallery="gallery1">
+                                        <img class="img-fluid rounded" src="assets/image/IMG_20240118_112455.jpg" alt="Fasilitas 1">
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG-20230228-WA0009.jpg" alt="fasilitas" style="width: 200px;">
+                        <div class="col mb-3">
+                            <div class="card border-0">
+                                <div class="card-body text-center">
+                                    <a href="assets/image/IMG-20230228-WA0009.jpg" class="lightbox" data-gallery="gallery1">
+                                        <img class="img-fluid rounded" src="assets/image/IMG-20230228-WA0009.jpg" alt="Fasilitas 1">
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG-20230228-WA0011.jpg" alt="fasilitas" style="width: 200px;">
+                        <div class="col mb-3">
+                            <div class="card border-0">
+                                <div class="card-body text-center">
+                                    <a href="assets/image/IMG-20230228-WA0011.jpg" class="lightbox" data-gallery="gallery1">
+                                        <img class="img-fluid rounded" src="assets/image/IMG-20230228-WA0011.jpg" alt="Fasilitas 1">
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -375,6 +410,12 @@
 
     <!-- bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Lightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.js"></script>
+    <script>
+        // Inisialisasi Lightbox
+        baguetteBox.run('.lightbox');
+    </script>
 </body>
 
 </html>
