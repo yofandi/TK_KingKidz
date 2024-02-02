@@ -105,9 +105,11 @@
                         <div class="card-body text-start">
                             <h1 class="display-1 fw-bolder mb-0"><span class="text-gradient d-inline">Visi</span></h1>
                             <hr class="border border-danger opacity-50 w-25">
-                            <p class="text-muted fs-6">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis amet excepturi, quaerat consequatur error esse maiores in cupiditate sed nemo iure fugit qui veritatis perferendis voluptas accusamus. Dolor, optio totam! Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi dolorem nesciunt eum amet sunt pariatur voluptatibus, architecto deserunt vel, aspernatur laudantium! Sed, qui obcaecati quibusdam molestias saepe deserunt suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, impedit debitis? Earum voluptatibus itaque eos cupiditate blanditiis optio voluptates magnam omnis voluptate. Hic ipsa commodi natus earum praesentium rem ullam.
-                            </p>
+                            <div class="mission-list">
+                                <p class="text-muted fs-6">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis amet excepturi, quaerat consequatur error esse maiores in cupiditate sed nemo iure fugit qui veritatis perferendis voluptas accusamus. Dolor, optio totam! Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi dolorem nesciunt eum amet sunt pariatur voluptatibus, architecto deserunt vel, aspernatur laudantium! Sed, qui obcaecati quibusdam molestias saepe deserunt suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, impedit debitis? Earum voluptatibus itaque eos cupiditate blanditiis optio voluptates magnam omnis voluptate. Hic ipsa commodi natus earum praesentium rem ullam.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -116,23 +118,23 @@
                         <div class="card-body text-start">
                             <h1 class="display-1 fw-bolder mb-0"><span class="text-gradient d-inline">Misi</span></h1>
                             <hr class="border border-danger opacity-50 w-25">
-                            <p class="lead">
-                            <ol class="fs-6 list-numbered">
-                                <li>Mengembangkan solusi teknologi canggih.</li>
-                                <li>Menyediakan lingkungan kerja yang inspiratif.</li>
-                                <li>Menciptakan nilai tambah bagi pelanggan dan pemangku kepentingan.</li>
-                                <li>Mengembangkan Kreativitas dan Inovasi</li>
-                                <li>Membangun Dasar Pendidikan Berkualitas</li>
-                                <li>Menanamkan Nilai-Nilai Moral dan Etika</li>
-                                <li>Mengintegrasikan Teknologi dalam Pembelajaran</li>
-                                <li>Menciptakan Lingkungan Ramah Anak</li>
-                                <li>Mendorong Pembelajaran Kolaboratif</li>
-                                <li>Mengembangkan Keterampilan Sosial dan Emosional</li>
-                                <li>Memelihara Kepekaan terhadap Keanekaragaman</li>
-                                <li>Menyediakan Lingkungan Pembelajaran yang Fleksibel</li>
-                                <li>Melibatkan Orang Tua dalam Pembelajaran</li>
-                            </ol>
-                            </p>
+                            <div class="mission-list">
+                                <ol class="fs-6 list-numbered">
+                                    <li>Mengembangkan solusi teknologi canggih.</li>
+                                    <li>Menyediakan lingkungan kerja yang inspiratif.</li>
+                                    <li>Menciptakan nilai tambah bagi pelanggan dan pemangku kepentingan.</li>
+                                    <li>Mengembangkan Kreativitas dan Inovasi</li>
+                                    <li>Membangun Dasar Pendidikan Berkualitas</li>
+                                    <li>Menanamkan Nilai-Nilai Moral dan Etika</li>
+                                    <li>Mengintegrasikan Teknologi dalam Pembelajaran</li>
+                                    <li>Menciptakan Lingkungan Ramah Anak</li>
+                                    <li>Mendorong Pembelajaran Kolaboratif</li>
+                                    <li>Mengembangkan Keterampilan Sosial dan Emosional</li>
+                                    <li>Memelihara Kepekaan terhadap Keanekaragaman</li>
+                                    <li>Menyediakan Lingkungan Pembelajaran yang Fleksibel</li>
+                                    <li>Melibatkan Orang Tua dalam Pembelajaran</li>
+                                </ol>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -141,49 +143,42 @@
     </div>
 
     <!-- nilai -->
-    <div class="bg-danger py-5 mt-auto">
-        <div class="container-fluid">
-            <div class="row mt-2 ms-auto">
-                <div class="text-center my-5">
-                    <h2 class="display-5 fw-bolder"><span class="text-white d-inline">Nilai-Nilai Yang Dibawa</span></h2>
-                    <hr class="border border-white w-50 mx-auto">
-                </div>
-            </div>
-            <div class="row justify-content-center align-items-start">
-                <div class="col-md-4 logoTKhover">
+    <div class="bg-danger py-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-4 text-center">
                     <img class="img-fluid" style="height: 50vh; width: auto" src="assets/8728841.png" alt="">
-                    <h1 class="display-2 fw-bolder text-white ms-5"><em>King's Kidz</em></h1>
+                    <h1 class="display-2 fw-bolder text-white mt-4"><em>King's Kidz</em></h1>
                 </div>
-                <div class="col-md-5">
-                    <div class="text-white pt-5">
-                        <h1 class="display-5 fw-bolder">Penjelasan</h1>
-                        <ol class="fs-6 list-numbered">
-                            <li>
-                                <h4 class="">Semua Anak Penting:</h4>
-                                Di TK King's Kidz, setiap anak dianggap istimewa. Tak peduli dari mana mereka berasal atau kondisi ekonomi keluarganya, semua anak punya hak untuk belajar dengan senang.
-                            </li>
-                            <li>
-                                <h4>Adil untuk Semua:</h4>
-                                Kita percaya bahwa semua anak memiliki hak yang sama untuk belajar dan berkembang. Di sini, tidak ada perbedaan perlakuan berdasarkan keadaan ekonomi.
-                            </li>
-                            <li>
-                                <h4>Anak Raja dalam Kristus:</h4>
-                                Kami mengajarkan anak-anak bahwa mereka adalah anak-anak raja dalam Kristus Yesus. Artinya, setiap anak dihargai dan dicintai oleh Tuhan tanpa memandang apa pun.
-                            </li>
-                            <li>
-                                <h4>Belajar yang Menyenangkan:</h4>
-                                Di TK King's Kidz, kita membuat belajar jadi menyenangkan. Anak-anak belajar banyak hal baik, seperti berhitung dan membaca, sambil juga belajar tentang kasih sayang dan kerja sama.
-                            </li>
-                            <li>
-                                <h4>Berkembang sebagai Pribadi Baik:</h4>
-                                Selain pelajaran akademis, kita juga mengajarkan anak-anak menjadi pribadi yang baik. Mereka belajar tentang kejujuran, saling menghormati, dan bagaimana bekerja sama.
-                            </li>
-                            <li>
-                                <h4>Setiap Anak Unik:</h4>
-                                Kami bangga pada keunikan setiap anak. Masing-masing punya kelebihan dan bakat sendiri, dan kita mendukung mereka menemukan dan mengembangkan potensi terbaik mereka.
-                            </li>
-                        </ol>
-                    </div>
+                <div class="col-md-6 text-white">
+                    <h1 class="display-5 fw-bolder">Nilai-Nilai Yang Dibawa</h1>
+                    <hr class="border border-white w-50 mx-auto">
+                    <ol class="fs-6 list-numbered">
+                        <li>
+                            <h4 class="">Semua Anak Penting:</h4>
+                            Di TK King's Kidz, setiap anak dianggap istimewa. Tak peduli dari mana mereka berasal atau kondisi ekonomi keluarganya, semua anak punya hak untuk belajar dengan senang.
+                        </li>
+                        <li>
+                            <h4>Adil untuk Semua:</h4>
+                            Kita percaya bahwa semua anak memiliki hak yang sama untuk belajar dan berkembang. Di sini, tidak ada perbedaan perlakuan berdasarkan keadaan ekonomi.
+                        </li>
+                        <li>
+                            <h4>Anak Raja dalam Kristus:</h4>
+                            Kami mengajarkan anak-anak bahwa mereka adalah anak-anak raja dalam Kristus Yesus. Artinya, setiap anak dihargai dan dicintai oleh Tuhan tanpa memandang apa pun.
+                        </li>
+                        <li>
+                            <h4>Belajar yang Menyenangkan:</h4>
+                            Di TK King's Kidz, kita membuat belajar jadi menyenangkan. Anak-anak belajar banyak hal baik, seperti berhitung dan membaca, sambil juga belajar tentang kasih sayang dan kerja sama.
+                        </li>
+                        <li>
+                            <h4>Berkembang sebagai Pribadi Baik:</h4>
+                            Selain pelajaran akademis, kita juga mengajarkan anak-anak menjadi pribadi yang baik. Mereka belajar tentang kejujuran, saling menghormati, dan bagaimana bekerja sama.
+                        </li>
+                        <li>
+                            <h4>Setiap Anak Unik:</h4>
+                            Kami bangga pada keunikan setiap anak. Masing-masing punya kelebihan dan bakat sendiri, dan kita mendukung mereka menemukan dan mengembangkan potensi terbaik mereka.
+                        </li>
+                    </ol>
                 </div>
             </div>
         </div>

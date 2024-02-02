@@ -506,3 +506,26 @@ p {
     height: 300px;
     object-fit: cover;
 }
+
+/* Gaya CSS untuk membuat bagian Misi lebih responsif */
+@media (max-width: 768px) {
+    .mission-list {
+        max-height: 300px;
+        /* Atur ketinggian maksimum untuk daftar misi */
+        overflow-y: auto;
+        /* Tambahkan overflow-y untuk scroll jika konten terlalu panjang */
+    }
+
+    .fs-6.list-numbered {
+        font-size: 0.9rem;
+        /* Ubah ukuran font menjadi lebih kecil */
+    }
+}
+
+/* Media query tambahan jika diperlukan untuk lebar layar yang lebih kecil */
+@media (max-width: 576px) {
+    .fs-6.list-numbered {
+        font-size: 0.8rem;
+        /* Ukuran font lebih kecil untuk layar yang lebih kecil */
+    }
+}
