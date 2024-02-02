@@ -59,7 +59,7 @@
 
                                 <li class="nav-item mx-2">
                                     <a class="nav-link" href="perihalkami.php">Tentang kami</a>
-                                </li>                                
+                                </li>
                                 <li class="nav-item mx-2">
                                     <a class="nav-link" href="kontak.php">Kontak</a>
                                 </li>
@@ -359,6 +359,43 @@
             </div>
         </div>
 
+        <div class="container bg-light mt-5">
+            <div class="card shadow card-slider">
+                <div class="text-center my-5">
+                    <h2 class="display-5 card-title fw-bolder"><span class="text-gradient d-inline">Testimoni</span></h2>
+                </div>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Slide 1">
+                            <div class="d-none" data-title="Judul Testimoni 1" data-caption="ini adalah isi dari caption dari testimoni 1"></div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Slide 2">
+                            <div class="d-none" data-title="Judul Testimoni 2" data-caption="ini adalah isi dari caption dari testimoni 2"></div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Slide 3">
+                            <div class="d-none" data-title="Judul Testimoni 3" data-caption="ini adalah isi dari caption dari testimoni 3"></div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title" id="carouselTitle"></h5>
+                    <p class="card-text" id="carouselCaption"></p>
+                </div>
+            </div>
+        </div>
+
+
         <!-- kerjasama -->
         <div class="bg-white" id="Partner">
             <div class="container">
@@ -459,6 +496,45 @@
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="js/style.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Fungsi untuk mengatur isi card body
+            function setCardBodyContent() {
+                // Dapatkan carousel item yang aktif saat pertama kali halaman dimuat
+                var $activeCarouselItem = $('#carouselExampleControls .carousel-item.active');
+
+                // Dapatkan nilai data-title dari carousel item yang aktif
+                var title = $activeCarouselItem.find('.d-none').data('title');
+
+                // Dapatkan nilai data-caption dari carousel item yang aktif
+                var caption = $activeCarouselItem.find('.d-none').data('caption');
+
+                // Tetapkan nilai data-title ke elemen dengan ID carouselTitle
+                $('#carouselTitle').text(title);
+
+                // Tetapkan nilai data-caption ke elemen dengan ID carouselCaption
+                $('#carouselCaption').text(caption);
+            }
+
+            // Panggil fungsi setCardBodyContent saat dokumen siap
+            setCardBodyContent();
+
+            // Jalankan kode ketika carousel berubah slide
+            $('#carouselExampleControls').on('slid.bs.carousel', function() {
+                setCardBodyContent();
+                // Dapatkan carousel item yang aktif
+                var $activeCarouselItem = $(this).find('.carousel-item.active');
+
+                // Dapatkan nilai data-caption dari carousel item yang aktif
+                var title = $activeCarouselItem.find('.d-none').data('title');
+                var caption = $activeCarouselItem.find('.d-none').data('caption');
+
+                // Tetapkan nilai data-caption ke elemen dengan ID carouselCaption
+                $('#carouselTitle').text(title);
+                $('#carouselCaption').text(caption);
+            });
+        });
+    </script>
 </body>
 
 </html>
