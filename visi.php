@@ -84,11 +84,8 @@
                         <h1 class="display-1 fw-bolder"><span class="text-white d-inline ">Visi & Misi</span></h1>
                     </div>
                     <div class="col-md-8 text-white mt-4">
-                        <p class="fs-3">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis ipsa sit harum illo beatae. Tempora dolore eveniet optio aut fugiat consectetur eaque quod qui pariatur? Quisquam itaque similique dicta ullam.
-                        </p>
-                        <p class="fs-3">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam quas rerum, velit voluptatum in harum iure non accusantium quis porro corporis ab, sit veritatis eum natus magni laborum reiciendis eveniet.
+                        <p class="fs-4">
+                            Kami mengundang Anda untuk menyelami visi dan misi kami, yang menjadi landasan utama dalam setiap langkah kami. Visi kami adalah menciptakan perubahan positif dan memberikan dampak yang berarti dalam masyarakat dan lingkungan sekitar.
                         </p>
                     </div>
                 </div>

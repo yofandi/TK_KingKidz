@@ -98,8 +98,8 @@
 
     <!-- kontak kami -->
     <div class="container py-5 px-4 px-md-5">
-        <div class="d-flex row bg-light rounded-4 py-5">
-            <div class="col col-4 px-5">
+        <div class="row bg-light rounded-4 py-5">
+            <div class="col-md-6 col-lg-4 px-md-5">
                 <div class="text-center mb-5">
                     <h1 class="fw-bolder text-gradient">Hubungi Kami</h1>
                     <p class="lead fw-normal text-muted mb-0">Formulir Pesan dan Saran</p>
@@ -107,18 +107,17 @@
                 <div class="text-start mb-5">
                     <p class="lead fw-formal text-muted">
                         Silakan menghubungi kami di hari dan jam kerja melalui kontak berikut:
-
+                    </p>
                     <ul class="lead fw-formal">
                         <li>Jam Kerja: 8:00 – 14:00 (Senin - Kamis); 08.00 - 12.00 (Jumat)</li>
                         <li>Telepon: +62 85000000000 </li>
                         <li>Email: info@tkkingskidzsby.com</li>
                     </ul>
-                    </p>
                 </div>
             </div>
-            <div class="col">
-                <div class="row gx-5 justify-content-center">
-                    <div class="col-lg-8 col-xl-6">
+            <div class="col-md-6 col-lg-8">
+                <div class="row gx-md-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-10">
                         <form id="contactForm" method="POST" action="process/send_email.php">
                             <!-- Name input-->
                             <div class="form-floating mb-3">
@@ -145,25 +144,6 @@
                                 <label for="message">Pesan</label>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">Diperlukan untuk mengisi pesan atau saran.</div>
                             </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Pengiriman formulir berhasil!</div>
-                                    To activate this form, sign up at
-                                    <br>
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage">
-                                <div class="text-center text-danger mb-3">Error sending message!</div>
-                            </div>
                             <!-- Submit Button-->
                             <div class="d-grid"><button class="btn btn-gradient btn-lg" id="submitButton" type="submit">Submit</button></div>
                         </form>
@@ -172,6 +152,7 @@
             </div>
         </div>
     </div>
+
 
     <!-- footer -->
     <footer class="bg-danger py-4 mt-auto">

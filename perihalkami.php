@@ -70,18 +70,18 @@
                 </div>
             </nav>
 
-            <!-- penjelasan tentang kami -->
-            <header class="py-5">
-                <div class="container my-5">
-                    <div class="row text-start align-items-end justify-content-center">
-                        <div class="col col-4">
+            <!-- penjelasan sejarah -->
+            <header class="py-5 bg-danger">
+                <div class="container-fluid my-5">
+                    <div class="row text-center text-lg-start align-items-center justify-content-center">
+                        <div class="col-lg-4 mb-3 mb-lg-0">
                             <img src="assets/10135474.png" class="img-fluid" alt="">
                         </div>
-                        <div class="col col-8">
-                            <h4 class="display-5 lead text-white mt-5">TK King's Kidz</h4>
-                            <h1 class="display-1 fw-bolder"><span class="text-white d-inline ">Tentang Kami</span></h1><br>
+                        <div class="col-lg-8">
+                            <h4 class="display-5 lead text-white mt-3 mt-lg-0">TK King's Kidz</h4>
+                            <h1 class="display-1 fw-bolder"><span class="text-white d-inline">Tentang Kami</span></h1>
                             <div class="text-white">
-                                <p class="fs-4">
+                                <p class="fs-5">
                                     Growing In Excellent
                                 </p>
                                 <p class="lead">
@@ -105,13 +105,13 @@
             <div class="card shadow border-0 rounded-4 mb-5">
                 <div class="card-body p-5">
                     <div class="row align-items-center gx-5">
-                        <div class="col text-center text-lg-start mb-4 mb-lg-0 tk-bgabout" style="--background: url('../assets/4431120.png')">
+                        <div class="col-lg-4 col-md-6 text-center text-lg-start mb-4 mb-lg-0 tk-bgabout" style="--background: url('../assets/4431120.png')">
                             <div class="bg-light p-4 rounded-4">
                                 <div class="text-danger fs-1 fw-bolder mb-2">TK King's Kidz</div>
                                 <div class="small fw-bolder">Character Building</div>
                             </div>
                         </div>
-                        <div class="col-8">
+                        <div class="col-lg-8 col-md-6">
                             <div class="lead fs-4">
                                 Walaupun King's Kidz menyediakan pendidikan secara gratis, kami menegaskan bahwa kualitas yang kami tawarkan bukanlah murahan. Kami memiliki tekad kuat untuk memberikan yang terbaik kepada setiap siswa. Dalam segala aspek, mulai dari kurikulum hingga fasilitas, King's Kidz berkomitmen untuk menyediakan standar pendidikan yang tinggi. Kami percaya bahwa pendidikan berkualitas tidak harus mahal, dan setiap anak berhak mendapatkan akses ke pembelajaran yang bermutu. Oleh karena itu, meskipun biaya sekolahnya gratis, kami tetap menjaga standar kualitas pendidikan dan memberikan pengalaman belajar yang memadai. Bagi kami, sekolah gratis bukanlah alasan untuk mengurangi kualitas; sebaliknya, itu adalah kesempatan untuk membuktikan bahwa pendidikan berkualitas dapat diakses oleh semua kalangan.
                             </div>
@@ -121,6 +121,7 @@
             </div>
         </div>
     </section>
+
 
     <!-- panel tentang sekolah kegiatan dan fasilitas -->
     <!-- <section class="py-5 bg-white">
@@ -271,30 +272,6 @@
                     <div class="col-md-4 mb-3">
                         <div class="card border-0">
                             <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG_20240110_104041.jpg" alt="fasilitas" style="width: 200px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG_20240110_091420.jpg" alt="fasilitas" style="width: 200px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG_20240110_104305.jpg" alt="fasilitas" style="width: 200px; height: 120px;">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="d-flex row align-items-center justify-content-center">
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
                                 <img class="img-fluid rounded" src="assets/image/IMG_20240118_112455.jpg" alt="fasilitas" style="width: 200px;">
                             </div>
                         </div>
@@ -310,167 +287,6 @@
                         <div class="card border-0">
                             <div class="card-body text-center">
                                 <img class="img-fluid rounded" src="assets/image/IMG-20230228-WA0011.jpg" alt="fasilitas" style="width: 200px;">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="d-flex row align-items-center justify-content-center">
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG20230202101241.jpg" alt="fasilitas" style="width: 200px; height: 120px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG20230206091003.jpg" alt="fasilitas" style="width: 200px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG20230227084733.jpg" alt="fasilitas" style="width: 200px;">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="d-flex row align-items-center justify-content-center">
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG20230302093252.jpg" alt="fasilitas" style="width: 200px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/P1080344.JPG" alt="fasilitas" style="width: 200px; height: 120px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/P1070853.JPG" alt="fasilitas" style="width: 200px; height: 120px;">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="d-flex row align-items-center justify-content-center">
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/P1070850.JPG" alt="fasilitas" style="width: 200px; height: 120px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/P1070848.JPG" alt="fasilitas" style="width: 200px; height: 120px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/P1070845.JPG" alt="fasilitas" style="width: 200px; height: 120px;">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="d-flex row align-items-center justify-content-center">
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/100_5256.JPG" alt="fasilitas" style="width: 200px; height: 120px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG_20151102_100149.jpg" alt="fasilitas" style="width: 200px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG_20240110_091441.jpg" alt="fasilitas" style="width: 200px;">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="d-flex row align-items-center justify-content-center">
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG_20240110_104658.jpg" alt="fasilitas" style="width: 200px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG-20230118-WA0012.jpg" alt="fasilitas" style="width: 200px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG_20240123_090235.jpg" alt="fasilitas" style="width: 200px;">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="d-flex row align-items-center justify-content-center">
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/20171212_120710.jpg" alt="fasilitas" style="width: 200px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/20171214_102254.jpg" alt="fasilitas" style="width: 200px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/20171214_103435.jpg" alt="fasilitas" style="width: 200px;">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="d-flex row align-items-center justify-content-center">
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG-20230118-WA0031.jpg" alt="fasilitas" style="width: 200px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
-                                <img class="img-fluid rounded" src="assets/image/IMG-20230119-WA0005.jpg" alt="fasilitas" style="width: 200px;">
                             </div>
                         </div>
                     </div>
