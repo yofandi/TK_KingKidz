@@ -15,8 +15,8 @@
 </head>
 
 <body>
-    <main class="d-flex bg-danger">
-        <div class="container-fluid vw-100 vh-100 py-3">
+    <main class="bg-danger">
+        <div class="container-fluid py-3">
             <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-danger" id="mynav">
                 <div class="container">
                     <!-- logo -->
@@ -57,7 +57,7 @@
 
                                 <li class="nav-item mx-2">
                                     <a class="nav-link" href="perihalkami.php">Tentang kami</a>
-                                </li>                                
+                                </li>
                                 <li class="nav-item mx-2">
                                     <a class="nav-link" href="kontak.php">Kontak</a>
                                 </li>
@@ -71,15 +71,19 @@
                     </div>
                 </div>
             </nav>
+        </div>
+    </main>
 
-            <!-- penjelasan visi -->
-            <header class="py-5 tk-bgvisi" style="--background: url('../assets/9307750.png')">
-                <div class="container my-5 align-items-end">
-                    <div class="row align-items-end text-center justify-content-center">
+    <!-- penjelasan visi -->
+    <div class="bg-danger">
+        <header class="py-5 tk-bgvisi" style="--background: url('../assets/9307750.png')">
+            <div class="container my-5 text-center">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-8">
                         <h4 class="display-5 lead text-white mt-5">TK King's Kidz</h4>
                         <h1 class="display-1 fw-bolder"><span class="text-white d-inline ">Visi & Misi</span></h1>
                     </div>
-                    <div class="row align-items-end text-center text-white d-flex justify-content-center display-5 mx-5 py-5 px-5">
+                    <div class="col-md-8 text-white mt-4">
                         <p class="fs-3">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis ipsa sit harum illo beatae. Tempora dolore eveniet optio aut fugiat consectetur eaque quod qui pariatur? Quisquam itaque similique dicta ullam.
                         </p>
@@ -88,42 +92,49 @@
                         </p>
                     </div>
                 </div>
-            </header>
-        </div>
-    </main>
+            </div>
+        </header>
+    </div>
 
     <!-- visi dan misi -->
-    <div class="py-5 px-5 bg-light">
-        <!-- halaman penjelasan sejarah -->
-        <div class="container-fluid tk-bgvisi" style="--background: url('../assets/9307750 - Copy.png')">
-            <div class="row d-flex justify-content-center align-items-start text-start mb-3">
-                <div class="col-4 px-5 py-5">
-                    <h1 class="display-1 fw-bolder mb-0"><span class="text-gradient d-inline">Visi</span></h1>
-                    <hr class="border border-danger opacity-50 w-25">
-                    <p class="text-muted fs-6">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis amet excepturi, quaerat consequatur error esse maiores in cupiditate sed nemo iure fugit qui veritatis perferendis voluptas accusamus. Dolor, optio totam! Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi dolorem nesciunt eum amet sunt pariatur voluptatibus, architecto deserunt vel, aspernatur laudantium! Sed, qui obcaecati quibusdam molestias saepe deserunt suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, impedit debitis? Earum voluptatibus itaque eos cupiditate blanditiis optio voluptates magnam omnis voluptate. Hic ipsa commodi natus earum praesentium rem ullam.
-                    </p>
+    <div class="px-5 py-5 bg-light">
+        <div class="tk-bgvisi" style="--background: url('../assets/9307750 - Copy.png')">
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card border-0">
+                        <div class="card-body text-start">
+                            <h1 class="display-1 fw-bolder mb-0"><span class="text-gradient d-inline">Visi</span></h1>
+                            <hr class="border border-danger opacity-50 w-25">
+                            <p class="text-muted fs-6">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis amet excepturi, quaerat consequatur error esse maiores in cupiditate sed nemo iure fugit qui veritatis perferendis voluptas accusamus. Dolor, optio totam! Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi dolorem nesciunt eum amet sunt pariatur voluptatibus, architecto deserunt vel, aspernatur laudantium! Sed, qui obcaecati quibusdam molestias saepe deserunt suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, impedit debitis? Earum voluptatibus itaque eos cupiditate blanditiis optio voluptates magnam omnis voluptate. Hic ipsa commodi natus earum praesentium rem ullam.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-4 px-5 py-5">
-                    <h1 class="display-1 fw-bolder mb-0"><span class="text-gradient d-inline">Misi</span></h1>
-                    <hr class="border border-danger opacity-50 w-25">
-                    <p class="lead">
-                    <ol class="fs-6 list-numbered">
-                        <li>Mengembangkan solusi teknologi canggih.</li>
-                        <li>Menyediakan lingkungan kerja yang inspiratif.</li>
-                        <li>Menciptakan nilai tambah bagi pelanggan dan pemangku kepentingan.</li>
-                        <li>Mengembangkan Kreativitas dan Inovasi</li>
-                        <li>Membangun Dasar Pendidikan Berkualitas</li>
-                        <li>Menanamkan Nilai-Nilai Moral dan Etika</li>
-                        <li>Mengintegrasikan Teknologi dalam Pembelajaran</li>
-                        <li>Menciptakan Lingkungan Ramah Anak</li>
-                        <li>Mendorong Pembelajaran Kolaboratif</li>
-                        <li>Mengembangkan Keterampilan Sosial dan Emosional</li>
-                        <li>Memelihara Kepekaan terhadap Keanekaragaman</li>
-                        <li>Menyediakan Lingkungan Pembelajaran yang Fleksibel</li>
-                        <li>Melibatkan Orang Tua dalam Pembelajaran</li>
-                    </ol>
-                    </p>
+                <div class="col-md-6 mb-4">
+                    <div class="card border-0">
+                        <div class="card-body text-start">
+                            <h1 class="display-1 fw-bolder mb-0"><span class="text-gradient d-inline">Misi</span></h1>
+                            <hr class="border border-danger opacity-50 w-25">
+                            <p class="lead">
+                            <ol class="fs-6 list-numbered">
+                                <li>Mengembangkan solusi teknologi canggih.</li>
+                                <li>Menyediakan lingkungan kerja yang inspiratif.</li>
+                                <li>Menciptakan nilai tambah bagi pelanggan dan pemangku kepentingan.</li>
+                                <li>Mengembangkan Kreativitas dan Inovasi</li>
+                                <li>Membangun Dasar Pendidikan Berkualitas</li>
+                                <li>Menanamkan Nilai-Nilai Moral dan Etika</li>
+                                <li>Mengintegrasikan Teknologi dalam Pembelajaran</li>
+                                <li>Menciptakan Lingkungan Ramah Anak</li>
+                                <li>Mendorong Pembelajaran Kolaboratif</li>
+                                <li>Mengembangkan Keterampilan Sosial dan Emosional</li>
+                                <li>Memelihara Kepekaan terhadap Keanekaragaman</li>
+                                <li>Menyediakan Lingkungan Pembelajaran yang Fleksibel</li>
+                                <li>Melibatkan Orang Tua dalam Pembelajaran</li>
+                            </ol>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -200,7 +211,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="js/style.js"></script>
 </body>
 
 </html>
