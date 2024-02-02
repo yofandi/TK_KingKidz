@@ -72,15 +72,15 @@
             </nav>
 
             <!-- lokasi kami -->
-            <header class="py-5">
-                <div class="container my-5">
-                    <div class="row text-start align-items-end justify-content-center">
-                        <div class="col col-4">
+            <header class="py-5 bg-danger">
+                <div class="container-fluid my-5">
+                    <div class="row text-center text-lg-start align-items-center justify-content-center">
+                        <div class="col-lg-4 mb-3 mb-lg-0">
                             <img src="assets/7125203.png" class="img-fluid" alt="">
                         </div>
-                        <div class="col col-8">
-                            <h4 class="display-5 lead text-white mt-5">Lokasi</h4>
-                            <h1 class="display-1 fw-bolder"><span class="text-white d-inline ">TK King's Kidz</span></h1><br>
+                        <div class="col-lg-8">
+                            <h4 class="display-5 lead text-white mt-3 mt-lg-0">Lokasi</h4>
+                            <h1 class="display-1 fw-bolder"><span class="text-white d-inline">TK King's Kidz</span></h1>
                             <div class="text-white">
                                 <p class="fs-5">
                                     Jl. Raya Darmo Indah Blok K No.6Tandes Kidul, Kec. Tandes, Surabaya, Jawa Timur 60187
