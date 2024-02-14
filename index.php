@@ -80,15 +80,15 @@
                     <div class="row gx-5 align-items-center">
                         <div class="col-md-5">
                             <div class="w-100 d-flex px-md-5 pb-md-5 flex-column justify-content-center text-start text-white fs-1">
-                                <div class="rounded-pill">
-                                    <div class="badge bg-gradient-warning-to-secondary fs-5 m-2">
+                                <div class="rounded-pill mb-3">
+                                    <div class="badge bg-gradient-warning-to-secondary fs-5">
                                         Lembaga Pendidikan
                                     </div>
                                 </div>
-                                <h1 class="f-brandSchool">King's Kidz</h1>
-                                <div class="rounded-pill">
-                                    <div class="badge bg-light fs-5 m-2">
-                                        <h4 class="f-textSchool">Growing in Excellent</h4>
+                                <h1 class="f-brandSchool display-1 mb-3">TK King's Kidz</h1>
+                                <div class="rounded-pill mb-3">
+                                    <div class="badge bg-light fs-5">
+                                        <h4 class="f-textSchool text-gradient">Growing in Excellent</h4>
                                     </div>
                                 </div>
                             </div>
@@ -120,33 +120,33 @@
         </div>
 
         <!-- sekilas -->
-        <section class="bg-light py-5" id="About">
+        <section class="bg-light py-5 position-relative tk-bgimage" style="--background: url('../assets/Artboard1.png')" id="About">
+            <div class=""></div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="text-start text-wrap my-5">
-                            <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Sekilas</span></h2>
-                            <p class="text-muted">TK King's Kid adalah sebuah lembaga pendidikan non-profit yang berkomitmen untuk memberikan akses pendidikan berkualitas bagi masyarakat menengah ke bawah. Sebagai lembaga yang didedikasikan untuk keberlanjutan dan pemerataan pendidikan, TK King's Kid berusaha memberikan peluang belajar yang setara bagi semua anak, tanpa memandang latar belakang ekonomi. Organisasi ini beroperasi dengan tujuan mendasar untuk mengurangi kesenjangan pendidikan dan memberikan dasar yang kuat bagi perkembangan anak-anak.</p>
-
-                            <p>Dengan menggunakan pendekatan yang holistik dan inklusif, TK King's Kid tidak hanya memberikan ajaran akademis, tetapi juga memperhatikan aspek-aspek perkembangan sosial dan emosional anak-anak. Kurikulum yang disusun dengan cermat didesain untuk merangsang rasa ingin tahu dan kreativitas anak-anak, sambil membangun nilai-nilai moral yang kuat.</p>
+                            <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline f-brandSchool">Sekilas</span></h2>
+                            <p class="text-muted f-plus-jakarta">TK King's Kid adalah sebuah lembaga pendidikan non-profit yang berkomitmen untuk memberikan akses pendidikan berkualitas bagi masyarakat menengah ke bawah. Sebagai lembaga yang didedikasikan untuk keberlanjutan dan pemerataan pendidikan, TK King's Kid berusaha memberikan peluang belajar yang setara bagi semua anak, tanpa memandang latar belakang ekonomi. Organisasi ini beroperasi dengan tujuan mendasar untuk mengurangi kesenjangan pendidikan dan memberikan dasar yang kuat bagi perkembangan anak-anak.</p>
+                            <p class="text-muted f-plus-jakarta">Dengan menggunakan pendekatan yang holistik dan inklusif, TK King's Kid tidak hanya memberikan ajaran akademis, tetapi juga memperhatikan aspek-aspek perkembangan sosial dan emosional anak-anak. Kurikulum yang disusun dengan cermat didesain untuk merangsang rasa ingin tahu dan kreativitas anak-anak, sambil membangun nilai-nilai moral yang kuat.</p>
                         </div>
                     </div>
-                    <div class="col-lg-2"></div>
-                    <div class="col-lg-2 d-flex justify-content-center position-relative my-5">
-                        <div class="circle"></div>
-                        <div class="circle2"></div>
-                        <img class="rounded-circle img" src="assets/image/IMG-20230202-WA0032.jpg" alt="">
+                    <div class="col-lg-6 d-flex justify-content-center align-items-center my-5">
+                        <img class="img-fluid" src="assets/forhistory - def.png" alt="">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="d-flex justify-content-center fs-2 gap-4">
-                        <a class="text-gradient" href="#!"><i class="bi bi-facebook"></i></a>
-                        <a class="text-gradient" href="#!"><i class="bi bi-instagram"></i></a>
-                        <a class="text-gradient" href="#!"><i class="bi bi-twitter-x"></i></a>
+                    <div class="col-lg-12 d-flex justify-content-center mt-4">
+                        <div class="fs-2 gap-4">
+                            <a class="text-gradient" href="#!"><i class="bi bi-facebook"></i></a>
+                            <a class="text-gradient" href="#!"><i class="bi bi-instagram"></i></a>
+                            <a class="text-gradient" href="#!"><i class="bi bi-twitter-x"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
 
         <!-- sekolah kami -->
         <section class="py-5 bg-gradient-warning-to-secondary text-white">

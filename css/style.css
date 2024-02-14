@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.cdnfonts.com/css/blobby-chug');
+
 
 @media (prefers-reduced-motion: no-preference) {
     :root {
@@ -109,10 +112,43 @@ p {
     margin-bottom: 1rem;
 }
 
+.text-gradient {
+    background: -webkit-linear-gradient(315deg, #f5b30c 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* CSS untuk teks gradient dengan shadow */
+.text-gradient-gold-with-shadow {
+    position: relative;
+    display: inline-block;
+    color: #EBBE66;
+    /* Warna teks */
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    /* Bayangan teks */
+}
+
+.text-gradient-gold-with-shadow::after {
+    content: attr(data-content);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    color: transparent;
+    background: -webkit-linear-gradient(315deg, rgb(219, 113, 0) 0%, rgb(226, 189, 140) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mp-visi {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
 .tk-kingkid {
-    /* menampilkan gambar serta memberikan warna hitam transparan */
     height: 110vh;
     max-height: 110vh;
+    /* menampilkan gambar serta memberikan warna hitam transparan */
     background: url('../assets/image/IMG20230303085132.jpg') rgba(0, 0, 0, 0.592);
     background-blend-mode: multiply;
     background-position: center center;
@@ -122,10 +158,10 @@ p {
 }
 
 .tk-bgvisi {
-    min-height: 90vh;
-    max-height: 120vh;
-    background: var(--background) rgba(255, 252, 252, 0);
-    padding: 100px 0;
+    height: 100vh;
+    /* Adjust height as needed */
+    background: var(--background) rgba(0, 0, 0, 0);
+    padding: 10px 0;
     background-blend-mode: multiply;
     background-position: center center;
     background-size: cover;
@@ -149,6 +185,20 @@ p {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.tk-bgimage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--background) rgba(255, 252, 252, 0);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    /* Taruh di bawah konten utama */
 }
 
 .social {
@@ -194,38 +244,42 @@ p {
     /* Warna border agar menyatu dengan background */
 }
 
-.text-gradient {
-    background: -webkit-linear-gradient(315deg, #f5b30c 0%, #e21e80 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 .f-brandSchool {
     font-family: 'Itim', cursive;
-    font-size: 100px;
+    /* font-size: 100px; */
 }
 
 .f-textSchool {
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 900;
-    background: -webkit-linear-gradient(91deg, #f5b30c 0%, #e21e80 100%);
+    /* background: -webkit-linear-gradient(91deg, #f5b30c 0%, #e21e80 100%); */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     /* text-shadow: 5px 10px 4px rgba(182, 178, 178, 0.8); */
 }
 
+.f-patrick-hand-regular {
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ol.f-patrick-hand-regular,
+ol.f-patrick-hand-regular li {
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.f-plus-jakarta {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
 .profile-img {
     height: auto;
     width: 100%;
-}
-
-.rounded-circle {
-    position: relative;
-    border-radius: 50%;
-    width: 55%;
-    height: 35vh;
-    /* Menggunakan viewport height untuk tinggi responsif */
-    z-index: 2;
 }
 
 .circle {
@@ -458,44 +512,6 @@ p {
     overflow: hidden;
 }
 
-.nav-tabs {
-    border: none;
-    border-image-slice: 1;
-    border-image-width: 0 0 2px 0;
-}
-
-.nav-tabs .nav-item {
-    position: relative;
-    margin-left: 10px;
-}
-
-.nav-tabs .nav-link {
-    border-top: 2px solid rgba(255, 0, 0, 0.556);
-    border-radius: 0;
-    border-radius: 375rem;
-    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
-    color: #000000;
-    /* Warna teks tab saat tidak aktif */
-}
-
-.nav-tabs .active::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 10px;
-    border-radius: 300rem;
-    background: linear-gradient(to right, #f5b30c, #e21e80);
-}
-
-.nav-tabs .nav-link.active,
-.nav-tabs .nav-link:hover {
-    color: #fbfbfb;
-    background: #ff8c00;
-    /* Ganti warna sesuai keinginan Anda */
-}
-
 /* Custom styles */
 .card-slider {
     max-width: 100%;
@@ -505,6 +521,24 @@ p {
     width: 100%;
     height: 300px;
     object-fit: cover;
+}
+
+/* Menghilangkan border dan underline pada nav-link */
+.nav-tabs .nav-link {
+    border: none;
+    text-decoration: none;
+}
+
+/* Menghilangkan border bawah pada nav-tabs */
+.nav-tabs .nav-item {
+    border-bottom: none;
+}
+
+/* Warna teks untuk link aktif dan saat hover */
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link:hover {
+    color: #000;
+    /* Sesuaikan dengan warna teks yang diinginkan */
 }
 
 /* Gaya CSS untuk membuat bagian Misi lebih responsif */

@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <main class="bg-danger">
+    <main class="tk-bgvisi" style="--background: url('../assets/multiple image - kingskidz (1).png')">
         <div class="container-fluid py-3">
             <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-danger" id="mynav">
                 <div class="container">
@@ -71,72 +71,86 @@
                     </div>
                 </div>
             </nav>
-        </div>
-    </main>
 
-    <!-- penjelasan visi -->
-    <div class="bg-danger">
-        <header class="py-5 tk-bgvisi" style="--background: url('../assets/9307750.png')">
-            <div class="container my-5 text-center">
+            <!-- penjelasan visi -->
+            <div class="container text-center">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-md-8">
-                        <h4 class="display-5 lead text-white mt-5">TK King's Kidz</h4>
-                        <h1 class="display-1 fw-bolder"><span class="text-white d-inline ">Visi & Misi</span></h1>
+                    <div class="col-md-8" style="margin-top: 250px;">
+                        <h4 class="display-5 lead f-brandSchool text-gradient">TK King's Kidz</h4>
+                        <h1 class="display-1 fw-bolder"><span class="text-gradient d-inline f-brandSchool">Visi & Misi</span></h1>
                     </div>
-                    <div class="col-md-8 text-white mt-4">
-                        <p class="fs-4">
+                    <div class="col-md-8 text-danger mt-4">
+                        <p class="fs-4 f-brandSchool">
                             Kami mengundang Anda untuk menyelami visi dan misi kami, yang menjadi landasan utama dalam setiap langkah kami. Visi kami adalah menciptakan perubahan positif dan memberikan dampak yang berarti dalam masyarakat dan lingkungan sekitar.
                         </p>
                     </div>
                 </div>
             </div>
-        </header>
-    </div>
+        </div>
+    </main>
 
     <!-- visi dan misi -->
-    <div class="px-5 py-5 bg-light">
-        <div class="tk-bgvisi" style="--background: url('../assets/9307750 - Copy.png')">
+    <div class="h-100">
+        <section class="container-fluid">
             <div class="row">
-                <div class="col-md-6 mb-4">
-                    <div class="card border-0">
-                        <div class="card-body text-start">
-                            <h1 class="display-1 fw-bolder mb-0"><span class="text-gradient d-inline">Visi</span></h1>
-                            <hr class="border border-danger opacity-50 w-25">
-                            <div class="mission-list">
-                                <p class="text-muted fs-6">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis amet excepturi, quaerat consequatur error esse maiores in cupiditate sed nemo iure fugit qui veritatis perferendis voluptas accusamus. Dolor, optio totam! Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi dolorem nesciunt eum amet sunt pariatur voluptatibus, architecto deserunt vel, aspernatur laudantium! Sed, qui obcaecati quibusdam molestias saepe deserunt suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, impedit debitis? Earum voluptatibus itaque eos cupiditate blanditiis optio voluptates magnam omnis voluptate. Hic ipsa commodi natus earum praesentium rem ullam.
-                                </p>
-                            </div>
+                <!-- Bagian kiri -->
+                <div class="col-md-6 px-5 py-5 bg-light d-flex justify-content-center align-items-center">
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="visiImage" role="tabpanel" aria-labelledby="visi-tab">
+                            <img class="img-fluid" src="assets/9307750.png" alt="visi image">
+                        </div>
+                        <div class="tab-pane fade" id="misiImage" role="tabpanel" aria-labelledby="misi-tab">
+                            <img class="img-fluid" src="assets/5143067.png" alt="misi image">
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 mb-4">
-                    <div class="card border-0">
-                        <div class="card-body text-start">
-                            <h1 class="display-1 fw-bolder mb-0"><span class="text-gradient d-inline">Misi</span></h1>
-                            <hr class="border border-danger opacity-50 w-25">
-                            <div class="mission-list">
-                                <ol class="fs-6 list-numbered">
-                                    <li>Mengembangkan solusi teknologi canggih.</li>
-                                    <li>Menyediakan lingkungan kerja yang inspiratif.</li>
-                                    <li>Menciptakan nilai tambah bagi pelanggan dan pemangku kepentingan.</li>
-                                    <li>Mengembangkan Kreativitas dan Inovasi</li>
-                                    <li>Membangun Dasar Pendidikan Berkualitas</li>
-                                    <li>Menanamkan Nilai-Nilai Moral dan Etika</li>
-                                    <li>Mengintegrasikan Teknologi dalam Pembelajaran</li>
-                                    <li>Menciptakan Lingkungan Ramah Anak</li>
-                                    <li>Mendorong Pembelajaran Kolaboratif</li>
-                                    <li>Mengembangkan Keterampilan Sosial dan Emosional</li>
-                                    <li>Memelihara Kepekaan terhadap Keanekaragaman</li>
-                                    <li>Menyediakan Lingkungan Pembelajaran yang Fleksibel</li>
-                                    <li>Melibatkan Orang Tua dalam Pembelajaran</li>
-                                </ol>
+                <!-- Bagian kanan -->
+                <div class="col-md-6 px-5 py-2 d-flex justify-content-center align-items-center">
+                    <div>
+                        <ul class="nav nav-tabs" id="TabVisiMisi" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="visi-tab" data-bs-toggle="tab" data-target="#visi, #visiImage" type="button" role="tab" aria-controls="visi" aria-selected="true">
+                                    <h1 class="text-gradient d-inline f-brandSchool">Visi</h1>
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="misi-tab" data-bs-toggle="tab" data-target="#misi, #misiImage" type="button" role="tab" aria-controls="misi" aria-selected="false">
+                                    <h1 class="text-gradient d-inline f-brandSchool">Misi</h1>
+                                </button>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="visi" role="tabpanel" aria-labelledby="visi-tab">
+                                <div class="mission-list">
+                                    <p class="text-muted f-patrick-hand-regular fs-4">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis amet excepturi, quaerat consequatur error esse maiores in cupiditate sed nemo iure fugit qui veritatis perferendis voluptas accusamus. Dolor, optio totam! Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi dolorem nesciunt eum amet sunt pariatur voluptatibus, architecto deserunt vel, aspernatur laudantium! Sed, qui obcaecati quibusdam molestias saepe deserunt suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, impedit debitis? Earum voluptatibus itaque eos cupiditate blanditiis optio voluptates magnam omnis voluptate. Hic ipsa commodi natus earum praesentium rem ullam.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="misi" role="tabpanel" aria-labelledby="misi-tab">
+                                <div class="mission-list">
+                                    <ol class="fs-4 list-numbered f-brandSchool">
+                                        <li class="text-muted">Mengembangkan solusi teknologi canggih.</li>
+                                        <li class="text-muted">Menyediakan lingkungan kerja yang inspiratif.</li>
+                                        <li class="text-muted">Menciptakan nilai tambah bagi pelanggan dan pemangku kepentingan.</li>
+                                        <li class="text-muted">Mengembangkan Kreativitas dan Inovasi</li>
+                                        <li class="text-muted">Membangun Dasar Pendidikan Berkualitas</li>
+                                        <li class="text-muted">Menanamkan Nilai-Nilai Moral dan Etika</li>
+                                        <li class="text-muted">Mengintegrasikan Teknologi dalam Pembelajaran</li>
+                                        <li class="text-muted">Menciptakan Lingkungan Ramah Anak</li>
+                                        <li class="text-muted">Mendorong Pembelajaran Kolaboratif</li>
+                                        <li class="text-muted">Mengembangkan Keterampilan Sosial dan Emosional</li>
+                                        <li class="text-muted">Memelihara Kepekaan terhadap Keanekaragaman</li>
+                                        <li class="text-muted">Menyediakan Lingkungan Pembelajaran yang Fleksibel</li>
+                                        <li class="text-muted">Melibatkan Orang Tua dalam Pembelajaran</li>
+                                    </ol>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
 
     <!-- nilai -->
@@ -145,12 +159,12 @@
             <div class="row align-items-center justify-content-center">
                 <div class="col-md-4 text-center">
                     <img class="img-fluid" style="height: 50vh; width: auto" src="assets/8728841.png" alt="">
-                    <h1 class="display-2 fw-bolder text-white mt-4"><em>King's Kidz</em></h1>
+                    <h1 class="display-2 fw-bolder text-white mt-4 f-brandSchool"><em>King's Kidz</em></h1>
                 </div>
                 <div class="col-md-6 text-white">
-                    <h1 class="display-5 fw-bolder">Nilai-Nilai Yang Dibawa</h1>
+                    <h1 class="display-5 fw-bolder f-brandSchool">Nilai-Nilai Yang Dibawa</h1>
                     <hr class="border border-white w-50 mx-auto">
-                    <ol class="fs-6 list-numbered">
+                    <ol class="fs-6 list-numbered f-patrick-hand-regular">
                         <li>
                             <h4 class="">Semua Anak Penting:</h4>
                             Di TK King's Kidz, setiap anak dianggap istimewa. Tak peduli dari mana mereka berasal atau kondisi ekonomi keluarganya, semua anak punya hak untuk belajar dengan senang.
@@ -203,6 +217,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $('#TabVisiMisi button[data-bs-toggle="tab"]').on('show.bs.tab', function(e) {
+            let target = $(e.target).data('target');
+            $(target)
+                .addClass('active show')
+                .siblings('.tab-pane.active')
+                .removeClass('active show')
+        });
+    </script>
 </body>
 
 </html>
