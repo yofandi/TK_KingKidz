@@ -224,86 +224,43 @@
                 </div>
             </div>
         </div>
+        <section class="py-5 bg-white">
 
+        </section>
 
         <!-- kerjasama -->
-        <div class="bg-white" id="Partner">
+        <div class="bg-white py-5 my-5" id="Partner">
             <div class="container">
                 <div class="row justify-content-center text-center py-5 mt-auto">
-                    <h2 class="display-4 fw-bolder mb-4">Kerjasama</h2>
+                    <h2 class="display-4 fw-bolder mb-4">Kerjasama</h2> 
                     <hr class="border border-danger opacity-50 w-50">
                 </div>
-                <div class="row">
-                    <div class="col">
+                <div class="row justify-content-center">
+                    <div class="col-md-4 mb-4">
                         <div class="card border-0">
-                            <div class="card-body">
-                                <img src="https://ih1.redbubble.net/image.3259860502.3137/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg" class="profile-img" alt="">
+                            <div class="card-body text-center">
+                                <img class="img-thumbnail border-0" src="assets/image/yayasan-generasi-peduli-logo.png" width="200" height="200" alt="Partner 1">
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-md-4 mb-4">
                         <div class="card border-0">
-                            <div class="card-body">
-                                <img src="https://ih1.redbubble.net/image.3259860502.3137/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg" class="profile-img" alt="">
+                            <div class="card-body text-center">
+                                <img class="img-thumbnail border-0" src="https://ih1.redbubble.net/image.3259860502.3137/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"  width="200" height="200" alt="Partner 2">
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-md-4 mb-4">
                         <div class="card border-0">
-                            <div class="card-body">
-                                <img src="https://ih1.redbubble.net/image.3259860502.3137/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg" class="profile-img" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <div class="card border-0">
-                            <div class="card-body">
-                                <img src="https://ih1.redbubble.net/image.3259860502.3137/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg" class="profile-img" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card border-0">
-                            <div class="card-body">
-                                <img src="https://ih1.redbubble.net/image.3259860502.3137/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg" class="profile-img" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card border-0">
-                            <div class="card-body">
-                                <img src="https://ih1.redbubble.net/image.3259860502.3137/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg" class="profile-img" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <div class="card border-0">
-                            <div class="card-body">
-                                <img src="https://ih1.redbubble.net/image.3259860502.3137/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg" class="profile-img" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card border-0">
-                            <div class="card-body">
-                                <img src="https://ih1.redbubble.net/image.3259860502.3137/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg" class="profile-img" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card border-0">
-                            <div class="card-body">
-                                <img src="https://ih1.redbubble.net/image.3259860502.3137/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg" class="profile-img" alt="">
+                            <div class="card-body text-center">
+                                <img class="img-thumbnail border-0" src="https://ih1.redbubble.net/image.3259860502.3137/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"  width="200" height="200" alt="Partner 3">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
 
         <!-- Footer-->
         <footer class="bg-danger py-4 mt-auto">

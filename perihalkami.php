@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <main class="d-flex bg-danger">
+    <main class="d-flex bg-danger tk-bgvisi" style="--background: url('../assets/line.png')">
         <div class="container-fluid py-3">
             <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-danger" id="mynav">
                 <div class="container">
@@ -74,20 +74,20 @@
             </nav>
 
             <!-- penjelasan sejarah -->
-            <header class="py-5 bg-danger">
+            <header class="py-5">
                 <div class="container-fluid my-5">
                     <div class="row text-center text-lg-start align-items-center justify-content-center">
                         <div class="col-lg-4 mb-3 mb-lg-0">
                             <img src="assets/10135474.png" class="img-fluid" alt="">
                         </div>
-                        <div class="col-lg-8">
-                            <h4 class="display-5 lead text-white mt-3 mt-lg-0">TK King's Kidz</h4>
-                            <h1 class="display-1 fw-bolder"><span class="text-white d-inline">Tentang Kami</span></h1>
+                        <div class="col-lg-4">
+                            <h4 class="display-6 lead text-white f-brandSchool mt-3 mt-lg-0">TK King's Kidz</h4>
+                            <h1 class="display-1 fw-bolder"><span class="f-brandSchool text-white d-inline">Tentang Kami</span></h1>
                             <div class="text-white">
-                                <p class="fs-5">
+                                <p class="fs-2 f-patrick-hand-regular">
                                     Growing In Excellent
                                 </p>
-                                <p class="lead">
+                                <p class="lead f-textSchool">
                                     Jelajahi lebih lanjut! Kami mengundang Anda untuk menyelami dunia kami dan menemukan lebih banyak tentang apa yang kami tawarkan. Dari layanan kami hingga informasi terbaru, kami memiliki segala yang Anda butuhkan untuk membuat pengalaman Anda lebih menarik dan bermanfaat. Segera temukan lebih banyak hal yang menarik dan bergabunglah dalam perjalanan bersama kami!
                                 </p>
                             </div>
@@ -125,7 +125,6 @@
         </div>
     </section>
 
-
     <!-- panel tentang sekolah kegiatan dan fasilitas -->
     <!-- <section class="py-5 bg-white">
         <div class="container px-5 my-5">
@@ -159,7 +158,6 @@
 
         </div>
     </section> -->
-
     <div class="container py-5">
         <div class="row text-center justify-content-center mb-3">
             <h1 class="text-gradient display-1 fw-bolder mb-0">Sekolah Kami</h1>

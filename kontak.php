@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <main class="d-flex bg-danger">
+    <main class="d-flex bg-text-secondary-emphasis tk-bgimage" style="--background: url('../assets/map_line.png');">
         <div class="container-fluid py-3">
             <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-danger" id="mynav">
                 <div class="container">
@@ -72,27 +72,36 @@
             </nav>
 
             <!-- lokasi kami -->
-            <header class="py-5 bg-danger">
+            <header class="py-5">
                 <div class="container-fluid my-5">
-                    <div class="row text-center text-lg-start align-items-center justify-content-center">
-                        <div class="col-lg-4 mb-3 mb-lg-0">
-                            <img src="assets/7125203.png" class="img-fluid" alt="">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-4 col-md-6 mb-3 mb-lg-0 text-center">
+                            <img src="assets/7125203.png" class="img-fluid" width="300vw">
                         </div>
-                        <div class="col-lg-8">
-                            <h4 class="display-5 lead text-white mt-3 mt-lg-0">Lokasi</h4>
-                            <h1 class="display-1 fw-bolder"><span class="text-white d-inline">TK King's Kidz</span></h1>
-                            <div class="text-white">
-                                <p class="fs-5">
-                                    Jl. Raya Darmo Indah Blok K No.6Tandes Kidul, Kec. Tandes, Surabaya, Jawa Timur 60187
-                                </p>
-                                <p class="lead fst-italic">
-                                    Telepon: +62 85000000000 | Email: tk.kingskidzsby@gmail.com
-                                </p>
+                    </div>
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-6 col-md-8">
+                            <div class="card border border-white border-4 shadow bg-danger" style="border-radius: 50px;">
+                                <div class="card-body">
+                                    <div class="text-start text-center">
+                                        <h4 class="display-5 lead f-brandSchool text-gradient-gold-with-shadow">Lokasi</h4>
+                                        <h1 class="display-1 fw-bolder"><span class="text-gradient-gold-with-shadow d-inline f-brandSchool">TK King's Kidz</span></h1>
+                                    </div>
+                                    <div class="text-start text-gradient-gold-with-shadow text-center ps-5 mt-3 mt-md-4">
+                                        <p class="fs-5">
+                                            Jl. Raya Darmo Indah Blok K No.6Tandes Kidul, Kec. Tandes, Surabaya, Jawa Timur 60187
+                                        </p>
+                                        <p class="lead fst-italic">
+                                            Telepon: +62 85000000000 | Email: tk.kingskidzsby@gmail.com
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </header>
+
         </div>
     </main>
 
@@ -153,6 +162,44 @@
         </div>
     </div>
 
+    <!-- donasi -->
+    <section class="bg-light py-5 tk-bgimage" style="--background: url('../assets/donation_png.png');">
+        <div class="container my-5 px-5">
+            <div class="row text-center">
+                <h1 class="display-5 fw-bolder"><span class="text-gradient d-inline f-brandSchool">Donasi</span></h1>
+            </div>
+            <div class="row bg-white justify-content-center align-items-start text-center" style="width: 70vw; border-radius: 50px;">
+                <div class="col-md-4 mt-5">
+                    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <button class="nav-link bg-transparent active" id="v-pills-rekbca-tab" data-bs-toggle="pill" data-bs-target="#v-pills-rekbca" type="button" role="tab" aria-controls="v-pills-rekbca" aria-selected="false" tabindex="-1"><h1 class="display-6 f-plus-jakarta">Rek. BCA</h1></button>
+                        
+                        <button class="nav-link bg-transparent" id="v-pills-rekbni-tab" data-bs-toggle="pill" data-bs-target="#v-pills-rekbni" type="button" role="tab" aria-controls="v-pills-rekbni" aria-selected="false" tabindex="-1"><h1 class="display-6 f-plus-jakarta">Rek. BNI</h1></button>
+                        
+                        <button class="nav-link bg-transparent" id="v-pills-whatsapp-tab" data-bs-toggle="pill" data-bs-target="#v-pills-whatsapp" type="button" role="tab" aria-controls="v-pills-whatsapp" aria-selected="false" tabindex="-1"><h1 class="display-6 f-plus-jakarta">Kontak</h1></button>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-3">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active mb-4" id="v-pills-rekbca" role="tabpanel" aria-labelledby="v-pills-rekbca-tab" tabindex="0">
+                            <img class="img-fluid" src="assets/barcode/QR Code (1).jpg" alt="BarcodeBCA">
+                            <p class="mt-3">Rek. BCA - 011300000000</p>
+                        </div>
+
+                        <div class="tab-pane fade mb-4" id="v-pills-rekbni" role="tabpanel" aria-labelledby="v-pills-rekbni-tab" tabindex="0">
+                            <img class="img-fluid" src="assets/barcode/QR Code (2).jpg" alt="BarcodeBNI">
+                            <p class="mt-3">Rek. BNI - 17500000000</p>
+                        </div>
+                        
+                        <div class="tab-pane fade mb-4" id="v-pills-whatsapp" role="tabpanel" aria-labelledby="v-pills-whatsapp-tab" tabindex="0">
+                            <img class="img-fluid" src="assets/barcode/QR Code (2).jpg" alt="BarcodeBNI">
+                            <p class="mt-3">Whatsapp - 08500000000</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
 
     <!-- footer -->
     <footer class="bg-danger py-4 mt-auto">
@@ -172,6 +219,19 @@
         </div>
     </footer>
 
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $('#TabVisiMisi button[data-bs-toggle="tab"]').on('show.bs.tab', function(e) {
+            let target = $(e.target).data('target');
+            $(target)
+                .addClass('active show')
+                .siblings('.tab-pane.active')
+                .removeClass('active show')
+        });
+    </script>
 </body>
 
 </html>

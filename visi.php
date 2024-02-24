@@ -76,10 +76,10 @@
             <div class="container text-center">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-md-8" style="margin-top: 250px;">
-                        <h4 class="display-5 lead f-brandSchool text-gradient">TK King's Kidz</h4>
-                        <h1 class="display-1 fw-bolder"><span class="text-gradient d-inline f-brandSchool">Visi & Misi</span></h1>
+                        <h4 class="display-5 lead f-brandSchool text-gradient-color-with-shadow">TK King's Kidz</h4>
+                        <h1 class="display-1 fw-bolder"><span class="text-gradient-color-with-shadow d-inline f-brandSchool">Visi & Misi</span></h1>
                     </div>
-                    <div class="col-md-8 text-danger mt-4">
+                    <div class="col-md-8 text-dark mt-4">
                         <p class="fs-4 f-brandSchool">
                             Kami mengundang Anda untuk menyelami visi dan misi kami, yang menjadi landasan utama dalam setiap langkah kami. Visi kami adalah menciptakan perubahan positif dan memberikan dampak yang berarti dalam masyarakat dan lingkungan sekitar.
                         </p>
@@ -96,10 +96,10 @@
                 <!-- Bagian kiri -->
                 <div class="col-md-6 px-5 py-5 bg-light d-flex justify-content-center align-items-center">
                     <div class="tab-content">
-                        <div class="tab-pane fade show active" id="visiImage" role="tabpanel" aria-labelledby="visi-tab">
+                        <div class="tab-pane fade show active" id="visiImage" role="tabpanel" aria-labelledby="visi-tab" style="border-radius: 50px;">
                             <img class="img-fluid" src="assets/9307750.png" alt="visi image">
                         </div>
-                        <div class="tab-pane fade" id="misiImage" role="tabpanel" aria-labelledby="misi-tab">
+                        <div class="tab-pane fade" id="misiImage" role="tabpanel" aria-labelledby="misi-tab" style="border-radius: 50px;">
                             <img class="img-fluid" src="assets/5143067.png" alt="misi image">
                         </div>
                     </div>
@@ -120,14 +120,14 @@
                             </li>
                         </ul>
                         <div class="tab-content">
-                            <div class="tab-pane fade show active" id="visi" role="tabpanel" aria-labelledby="visi-tab">
+                            <div class="tab-pane fade show active" id="visi" role="tabpanel" aria-labelledby="visi-tab" style="border-radius: 50px;">
                                 <div class="mission-list">
                                     <p class="text-muted f-patrick-hand-regular fs-4">
                                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis amet excepturi, quaerat consequatur error esse maiores in cupiditate sed nemo iure fugit qui veritatis perferendis voluptas accusamus. Dolor, optio totam! Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi dolorem nesciunt eum amet sunt pariatur voluptatibus, architecto deserunt vel, aspernatur laudantium! Sed, qui obcaecati quibusdam molestias saepe deserunt suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, impedit debitis? Earum voluptatibus itaque eos cupiditate blanditiis optio voluptates magnam omnis voluptate. Hic ipsa commodi natus earum praesentium rem ullam.
                                     </p>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="misi" role="tabpanel" aria-labelledby="misi-tab">
+                            <div class="tab-pane fade" id="misi" role="tabpanel" aria-labelledby="misi-tab" style="border-radius: 50px;">
                                 <div class="mission-list">
                                     <ol class="fs-4 list-numbered f-brandSchool">
                                         <li class="text-muted">Mengembangkan solusi teknologi canggih.</li>
