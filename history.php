@@ -15,12 +15,12 @@
 </head>
 
 <body class="d-flex flex-column">
-    <main class="flex-shrink-0 bg-danger">
+    <main class="flex-shrink-0 bg-warning">
         <div class="container-fluid py-3 tk-bgimage" style="--background: url('../assets/forHistory.png')">
             <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent" id="mynav">
                 <div class="container">
                     <!-- logo -->
-                    <a class="navbar-brand fs-4" href="index.php"><img src="assets/image/Logo_KingsKid.png" alt="Bootstrap" width="60" height="45">TK King's Kidz</a>
+                    <a id="texttransisi" class="navbar-brand text-white fs-4" href="index.php"><img src="assets/image/Logo_KingsKid.png" alt="Bootstrap" width="60" height="45">TK King's Kidz</a>
                     <!-- toggle button -->
                     <button class="navbar-toggler shaddow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -37,11 +37,11 @@
                         <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
                             <ul class="navbar-nav justify-content-center fs-5 flex-grow-1 pe-3">
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link" aria-current="page" href="index.php">Beranda</a>
+                                    <a id="texttransisi" class="nav-link text-white" aria-current="page" href="index.php">Beranda</a>
                                 </li>
                                 <!-- Profile dropdown -->
                                 <!-- <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#Profile" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown">Profile</a>
+                                    <a id="texttransisi" class="nav-link text-white dropdown-toggle" href="#Profile" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown">Profile</a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <li><a class="dropdown-item" href=""></a></li>
                                         <li><a class="dropdown-item" href=""></a></li>
@@ -49,17 +49,17 @@
                                     </ul>
                                 </li> -->
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link active" href="history.php">Sejarah</a>
+                                    <a id="texttransisi" class="nav-link text-white active" href="history.php">Sejarah</a>
                                 </li>
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link" href="visi.php">Visi & Misi</a>
+                                    <a id="texttransisi" class="nav-link text-white" href="visi.php">Visi & Misi</a>
                                 </li>
 
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link" href="perihalkami.php">Tentang kami</a>
+                                    <a id="texttransisi" class="nav-link text-white" href="perihalkami.php">Tentang kami</a>
                                 </li>
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link" href="kontak.php">Kontak</a>
+                                    <a id="texttransisi" class="nav-link text-white" href="kontak.php">Kontak</a>
                                 </li>
                             </ul>
                             <!-- login / sign up -->
@@ -80,9 +80,9 @@
                             <img src="assets/8728865.png" class="img-fluid" alt="">
                         </div>
                         <div class="col-md-4">
-                            <h4 class="display-5 lead text-gradient-gold-with-shadow mt-3 mt-lg-0 f-brandSchool">TK King's Kidz</h4>
-                            <h1 class="display-1 fw-bolder"><span class="text-gradient-gold-with-shadow d-inline f-brandSchool">Sejarah</span></h1>
-                            <div class="text-white">
+                            <h4 class="display-5 lead text-gradient-scarlet-with-shadow mt-3 mt-lg-0 f-brandSchool">TK King's Kidz</h4>
+                            <h1 class="display-1 fw-bolder"><span class="text-gradient-scarlet-with-shadow d-inline f-brandSchool">Sejarah</span></h1>
+                            <div class="text-dark">
                                 <p class="fs-2 f-patrick-hand-regular">
                                     Growing In Excellent
                                 </p>
@@ -97,9 +97,9 @@
         </div>
 
         <!-- contact -->
-        <div class="bg-warning" style=" height: 80px; width: auto">
+        <div class="bg-transparet" style=" height: 80px; width: auto">
             <div class="container-fluid">
-                <div class="row justify-content-center bg-danger">
+                <div class="row justify-content-center">
                     <div class="col mt-2 text-white text-end">
                         &nbsp
                     </div>
@@ -171,17 +171,17 @@
                         <li class="timeline-item">
                             <div class="timeline-dot"></div>
                             <div class="timeline-item-content">
-                                <h3>Pembentukan Organisai</h3>
+                                <h3>Penerimaan Peserta Didik Baru Tahun 2023</h3>
 
-                                <p>Description of Event 1 goes here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt repellendus facilis cumque commodi neque. Repudiandae cumque maxime corporis cum. Tenetur nesciunt eius voluptatem sequi harum quidem veniam architecto iusto voluptatibus.</p>
+                                <p>Setelah mengalami masa vakum yang berlangsung beberapa waktu selama masa pandemi COVID-19, TK Kings Kidz kini membuka proses penerimaan peserta didik untuk tahun ajaran 2023.</p>
                             </div>
                             <div class="timeline-item-date mx-3">
                                 <div class="card shadow">
                                     <div class="card-body">
                                         <div class="timeline-item-img">
-                                            <img class="profile-img" src="https://cmsv2-assets.apptegy.net/uploads/9347/file/909955/cb4e5c0d-f9d6-4b98-97e8-e55704fb6887.jpeg" alt="Event 1 Image">
+                                            <img class="profile-img" src="assets/image/1.jpg" alt="Event 1 Image">
                                         </div>
-                                        12 January 2011
+                                        01 Mei 2023
                                     </div>
                                 </div>
                             </div>
@@ -189,17 +189,17 @@
                         <li class="timeline-item">
                             <div class="timeline-dot"></div>
                             <div class="timeline-item-content">
-                                <h3>Pembangunan Bangunan Sekolah</h3>
+                                <h3>Kegiatan Lomba Memperingati Kemerdekaan</h3>
 
-                                <p>Description of Event 2 goes here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, doloribus sapiente earum, repudiandae rem non vitae minima exercitationem vel quam facilis placeat ipsa aliquid iste id consequuntur. Hic, totam autem!</p>
+                                <p>TK Kings Kidz akan mengadakan rangkaian kegiatan khusus untuk merayakan Hari Kemerdekaan Indonesia yang jatuh pada tanggal 17 Agustus. Perayaan ini akan dilaksanakan sehari sebelumnya, tepatnya pada tanggal 16 Agustus, dengan berbagai acara dan kegiatan yang menarik.</p>
                             </div>
                             <div class="timeline-item-date mx-3">
                                 <div class="card">
                                     <div class="card-body">
                                         <div class="timeline-item-img">
-                                            <img class="profile-img" src="https://cmsv2-assets.apptegy.net/uploads/9347/file/909955/cb4e5c0d-f9d6-4b98-97e8-e55704fb6887.jpeg" alt="Event 2 Image">
+                                            <img class="profile-img" src="assets/image/17agustus.png" alt="Event 2 Image">
                                         </div>
-                                        28 Oktober 2012
+                                        16 Agustus 2023
                                     </div>
                                 </div>
                             </div>
@@ -207,17 +207,35 @@
                         <li class="timeline-item">
                             <div class="timeline-dot"></div>
                             <div class="timeline-item-content">
-                                <h3>PPDB Pertama</h3>
+                                <h3>Peringatan Hari Pahlawan 2023</h3>
 
-                                <p>Description of Event 2 goes here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, doloribus sapiente earum, repudiandae rem non vitae minima exercitationem vel quam facilis placeat ipsa aliquid iste id consequuntur. Hic, totam autem!</p>
+                                <p>TK Kings Kidz akan mengadakan kegiatan peringatan Hari Pahlawan pada tanggal 10 November yang akan dimeriahkan dengan lomba membuat nasi tumpeng bersama para wali murid. Acara ini bertujuan untuk mengenang jasa para pahlawan serta memperkuat kebersamaan antara siswa, guru, dan orang tua di lingkungan TK Kings Kidz.</p>
                             </div>
                             <div class="timeline-item-date mx-3">
                                 <div class="card">
                                     <div class="card-body">
                                         <div class="timeline-item-img">
-                                            <img class="profile-img" src="https://cmsv2-assets.apptegy.net/uploads/9347/file/909955/cb4e5c0d-f9d6-4b98-97e8-e55704fb6887.jpeg" alt="Event 2 Image">
+                                            <img class="profile-img" src="assets/image/10november.png" alt="Event 2 Image">
                                         </div>
-                                        28 Mei 2013
+                                        10 November 2013
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-item-content">
+                                <h3>Senyum Sehat: Pelajaran Kebersihan Gigi dan Pencegahan Lubang Gigi</h3>
+
+                                <p>TK Kings Kidz akan mengadakan kegiatan peringatan Hari Pahlawan pada tanggal 10 November yang akan dimeriahkan dengan lomba membuat nasi tumpeng bersama para wali murid. Acara ini bertujuan untuk mengenang jasa para pahlawan serta memperkuat kebersamaan antara siswa, guru, dan orang tua di lingkungan TK Kings Kidz.</p>
+                            </div>
+                            <div class="timeline-item-date mx-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="timeline-item-img">
+                                            <img class="profile-img" src="assets/image/periksagigi.jpg" alt="Event 2 Image">
+                                        </div>
+                                        17 Februari 2024
                                     </div>
                                 </div>
                             </div>
@@ -329,11 +347,11 @@
     </section>
 
     <!-- Footer-->
-    <footer class="bg-danger py-4 mt-auto">
+    <footer class="bg-warning py-4 mt-auto">
         <div class="container px-5">
             <div class="row align-items-center justify-content-between flex-column flex-sm-row">
                 <div class="col-auto">
-                    <div class="small m-0 text-white">Copyright &copy; King's Kid 2024</div>
+                    <div class="small m-0 text-dark">Copyright &copy; King's Kid 2024</div>
                 </div>
                 <div class="col-auto">
                     <a class="small text-white" href="#!">Privacy</a>
@@ -350,7 +368,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
     <!-- javascript page -->
     <script src="js/style.js"></script>
     <script src="js/custom.js"></script>

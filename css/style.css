@@ -148,6 +148,15 @@ p {
 }
 
 /* CSS untuk teks gradient dengan shadow */
+.text-gradient-scarlet-with-shadow {
+    position: relative;
+    display: inline-block;
+    color: #330000;
+    /* Warna teks */
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    /* Bayangan teks */
+}
+
 .text-gradient-gold-with-shadow {
     position: relative;
     display: inline-block;
@@ -269,7 +278,7 @@ p {
 }
 
 .bg-gradient-warning-to-secondary {
-    background: #f5b30c;
+    /* background: #3a2900; */
     background: linear-gradient(135deg, #f5b30c 0%, #e21e80 100%);
 }
 

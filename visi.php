@@ -17,10 +17,10 @@
 <body>
     <main class="tk-bgvisi" style="--background: url('../assets/multiple image - kingskidz (1).png')">
         <div class="container-fluid py-3">
-            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-danger" id="mynav">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-warning" id="mynav">
                 <div class="container">
                     <!-- logo -->
-                    <a class="navbar-brand fs-4" href="index.php"><img src="assets/image/Logo_KingsKid.png" alt="Bootstrap" width="60" height="45">TK King's Kidz</a>
+                    <a id="texttransisi" class="navbar-brand text-dark fs-4" href="index.php"><img src="assets/image/Logo_KingsKid.png" alt="Bootstrap" width="60" height="45">TK King's Kidz</a>
                     <!-- toggle button -->
                     <button class="navbar-toggler shaddow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -37,11 +37,11 @@
                         <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
                             <ul class="navbar-nav justify-content-center fs-5 flex-grow-1 pe-3">
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link" aria-current="page" href="index.php">Beranda</a>
+                                    <a id="texttransisi" class="nav-link text-dark active" aria-current="page" href="index.php">Beranda</a>
                                 </li>
                                 <!-- Profile dropdown -->
                                 <!-- <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#Profile" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown">Profile</a>
+                                    <a id="texttransisi" class="nav-link text-dark dropdown-toggle" href="#Profile" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown">Profile</a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <li><a class="dropdown-item" href=""></a></li>
                                         <li><a class="dropdown-item" href=""></a></li>
@@ -49,17 +49,17 @@
                                     </ul>
                                 </li> -->
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link" href="history.php">Sejarah</a>
+                                    <a id="texttransisi" class="nav-link text-dark" href="history.php">Sejarah</a>
                                 </li>
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link active" href="visi.php">Visi & Misi</a>
+                                    <a id="texttransisi" class="nav-link text-dark active" href="visi.php">Visi & Misi</a>
                                 </li>
 
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link" href="perihalkami.php">Tentang kami</a>
+                                    <a id="texttransisi" class="nav-link text-dark" href="perihalkami.php">Tentang kami</a>
                                 </li>
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link" href="kontak.php">Kontak</a>
+                                    <a id="texttransisi" class="nav-link text-dark" href="kontak.php">Kontak</a>
                                 </li>
                             </ul>
                             <!-- login / sign up -->
@@ -154,12 +154,12 @@
     </div>
 
     <!-- nilai -->
-    <div class="bg-danger py-5">
+    <div class="bg-gradient-warning-to-secondary py-5">
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <div class="col-md-4 text-center">
                     <img class="img-fluid" style="height: 50vh; width: auto" src="assets/8728841.png" alt="">
-                    <h1 class="display-2 fw-bolder text-white mt-4 f-brandSchool"><em>King's Kidz</em></h1>
+                    <h1 class="display-2 fw-bolder text-white f-brandSchool"><em>King's Kidz</em></h1>
                 </div>
                 <div class="col-md-6 text-white">
                     <h1 class="display-5 fw-bolder f-brandSchool">Nilai-Nilai Yang Dibawa</h1>
@@ -196,11 +196,11 @@
     </div>
 
     <!-- Footer-->
-    <footer class="bg-danger py-4 mt-auto">
+    <footer class="bg-warning py-4 mt-auto">
         <div class="container px-5">
             <div class="row align-items-center justify-content-between flex-column flex-sm-row">
                 <div class="col-auto">
-                    <div class="small m-0 text-white">Copyright &copy; King's Kid 2024</div>
+                    <div class="small m-0 text-dark">Copyright &copy; King's Kid 2024</div>
                 </div>
                 <div class="col-auto">
                     <a class="small text-white" href="#!">Privacy</a>

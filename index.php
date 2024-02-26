@@ -22,7 +22,7 @@
             <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent" id="mynav">
                 <div class="container">
                     <!-- logo -->
-                    <a class="navbar-brand fs-4" href="index.php"><img src="assets/image/Logo_KingsKid.png" alt="Bootstrap" width="60" height="45">TK King's Kidz</a>
+                    <a id="texttransisi" class="navbar-brand text-white fs-4" href="index.php"><img src="assets/image/Logo_KingsKid.png" alt="Bootstrap" width="60" height="45">TK King's Kidz</a>
                     <!-- toggle button -->
                     <button class="navbar-toggler shaddow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -39,11 +39,11 @@
                         <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
                             <ul class="navbar-nav justify-content-center fs-5 flex-grow-1 pe-3">
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link active" aria-current="page" href="index.php">Beranda</a>
+                                    <a id="texttransisi" class="nav-link text-white active" aria-current="page" href="index.php">Beranda</a>
                                 </li>
                                 <!-- Profile dropdown -->
                                 <!-- <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#Profile" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown">Profile</a>
+                                    <a id="texttransisi" class="nav-link text-white dropdown-toggle" href="#Profile" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown">Profile</a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <li><a class="dropdown-item" href=""></a></li>
                                         <li><a class="dropdown-item" href=""></a></li>
@@ -51,17 +51,17 @@
                                     </ul>
                                 </li> -->
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link" href="history.php">Sejarah</a>
+                                    <a id="texttransisi" class="nav-link text-white" href="history.php">Sejarah</a>
                                 </li>
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link" href="visi.php">Visi & Misi</a>
+                                    <a id="texttransisi" class="nav-link text-white" href="visi.php">Visi & Misi</a>
                                 </li>
 
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link" href="perihalkami.php">Tentang kami</a>
+                                    <a id="texttransisi" class="nav-link text-white" href="perihalkami.php">Tentang kami</a>
                                 </li>
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link" href="kontak.php">Kontak</a>
+                                    <a id="texttransisi" class="nav-link text-white" href="kontak.php">Kontak</a>
                                 </li>
                             </ul>
                             <!-- login / sign up -->
@@ -104,12 +104,12 @@
         <!-- contact -->
         <div class="bg-body-tertiary" style=" height: 80px; width: auto">
             <div class="container-fluid">
-                <div class="row justify-content-center bg-danger">
-                    <div class="col mt-2 text-white text-end">
+                <div class="row justify-content-center bg-warning">
+                    <div class="col mt-2 text-dark text-end">
                         <p><i class="bi bi-telephone-fill"></i> (0331) 4350050 <i class="bi bi-telephone-fill"></i> (0331) 4350327 <i class="bi bi-telephone-fill"></i> (031) 99446671 <i class="bi bi-telephone-fill"></i> 08123-0033-880 </p>
                     </div>
                     <div class="col">
-                        <ul class="text-white text-end social mt-2">
+                        <ul class="text-dark text-end social mt-2">
                             <li class="social-shared"> <i class="bi bi-facebook"></i> </li>
                             <li class="social-shared"> <i class="bi bi-instagram"></i> </li>
                             <li class="social-shared"> <i class="bi bi-twitter-x"></i> </li>
@@ -198,15 +198,15 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="https://via.placeholder.com/800x400" class="" alt="Slide 1">
-                            <div class="d-none" data-title="Judul Testimoni 1" data-caption="ini adalah isi dari caption dari testimoni 1"></div>
+                            <div class="d-none" data-title="Anak saya berkembang luar biasa" data-caption="Anak saya telah menunjukkan perkembangan yang luar biasa sejak bergabung dengan TK Kings Kidz. Saya sangat senang melihat betapa bahagianya anak saya setiap hari, dan saya juga melihat bahwa ia menjadi lebih maju dan unggul dibandingkan dengan anak-anak sebayanya di sekitar rumah kami. -- "></div>
                         </div>
                         <div class="carousel-item">
                             <img src="https://via.placeholder.com/800x400" class="" alt="Slide 2">
-                            <div class="d-none" data-title="Judul Testimoni 2" data-caption="ini adalah isi dari caption dari testimoni 2"></div>
+                            <div class="d-none" data-title="Anak jadi aktif dan suka sekolah" data-caption="Jadi semakin aktif dan senang membantu di sekitar rumah sejak bergabung dengan TK Kings Kidz. Selain itu, semangat belajarnya juga semakin meningkat setiap harinya. Saya sangat bersyukur melihat perkembangannya. -- Mom Djanuar"></div>
                         </div>
                         <div class="carousel-item">
                             <img src="https://via.placeholder.com/800x400" class="" alt="Slide 3">
-                            <div class="d-none" data-title="Judul Testimoni 3" data-caption="ini adalah isi dari caption dari testimoni 3"></div>
+                            <div class="d-none" data-title="Dari pendiam jadi aktif dan ekspresif" data-caption="Saya sangat bersyukur melihat perubahan positif yang dialami anak saya sejak bergabung dengan TK Kings Kidz. Anak saya yang dulunya pendiam kini menjadi lebih berani, aktif, dan mandiri. Mereka telah belajar untuk bergaul dan mengekspresikan diri dengan lebih baik. Ini adalah sebuah perubahan yang luar biasa, dan saya sangat senang dengan perkembangan anak saya. - Mom Rein"></div>
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -233,7 +233,7 @@
             <div class="container">
                 <div class="row justify-content-center text-center py-5 mt-auto">
                     <h2 class="display-4 fw-bolder mb-4">Kerjasama</h2> 
-                    <hr class="border border-danger opacity-50 w-50">
+                    <hr class="border border-warning opacity-50 w-50">
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-md-4 mb-4">
@@ -263,11 +263,11 @@
 
 
         <!-- Footer-->
-        <footer class="bg-danger py-4 mt-auto">
+        <footer class="bg-warning py-4 mt-auto">
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
                     <div class="col-auto">
-                        <div class="small m-0 text-white">Copyright &copy; King's Kid 2024</div>
+                        <div class="small m-0 text-dark">Copyright &copy; King's Kid 2024</div>
                     </div>
                     <div class="col-auto">
                         <a class="small text-white" href="#!">Privacy</a>
@@ -297,7 +297,7 @@
                 var caption = $activeCarouselItem.find('.d-none').data('caption');
 
                 // Tetapkan nilai data-title ke elemen dengan ID carouselTitle
-                $('#carouselTitle').text(title);
+                $('#carouselTitle').css('font-weight', 'bold').text(title);
 
                 // Tetapkan nilai data-caption ke elemen dengan ID carouselCaption
                 $('#carouselCaption').text(caption);
@@ -317,7 +317,7 @@
                 var caption = $activeCarouselItem.find('.d-none').data('caption');
 
                 // Tetapkan nilai data-caption ke elemen dengan ID carouselCaption
-                $('#carouselTitle').text(title);
+                $('#carouselTitle').css('font-weight','bold').text(title);
                 $('#carouselCaption').text(caption);
             });
         });

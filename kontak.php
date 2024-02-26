@@ -14,12 +14,12 @@
 </head>
 
 <body>
-    <main class="d-flex bg-text-secondary-emphasis tk-bgimage" style="--background: url('../assets/map_line.png');">
+    <main class="d-flex tk-bgimage" style="--background: url('../assets/map_line.png');">
         <div class="container-fluid py-3">
-            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-danger" id="mynav">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-warning" id="mynav">
                 <div class="container">
                     <!-- logo -->
-                    <a class="navbar-brand fs-4" href="index.php"><img src="assets/image/Logo_KingsKid.png" alt="Bootstrap" width="60" height="45">TK King's Kidz</a>
+                    <a id="texttransisi" class="navbar-brand text-dark fs-4" href="index.php"><img src="assets/image/Logo_KingsKid.png" alt="Bootstrap" width="60" height="45">TK King's Kidz</a>
                     <!-- toggle button -->
                     <button class="navbar-toggler shaddow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -36,11 +36,11 @@
                         <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
                             <ul class="navbar-nav justify-content-center fs-5 flex-grow-1 pe-3">
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link" aria-current="page" href="index.php">Beranda</a>
+                                    <a id="texttransisi" class="nav-link text-dark active" aria-current="page" href="index.php">Beranda</a>
                                 </li>
                                 <!-- Profile dropdown -->
                                 <!-- <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#Profile" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown">Profile</a>
+                                    <a id="texttransisi" class="nav-link text-dark dropdown-toggle" href="#Profile" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown">Profile</a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <li><a class="dropdown-item" href=""></a></li>
                                         <li><a class="dropdown-item" href=""></a></li>
@@ -48,17 +48,17 @@
                                     </ul>
                                 </li> -->
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link" href="history.php">Sejarah</a>
+                                    <a id="texttransisi" class="nav-link text-dark" href="history.php">Sejarah</a>
                                 </li>
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link" href="visi.php">Visi & Misi</a>
+                                    <a id="texttransisi" class="nav-link text-dark" href="visi.php">Visi & Misi</a>
                                 </li>
 
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link" href="perihalkami.php">Tentang kami</a>
+                                    <a id="texttransisi" class="nav-link text-dark" href="perihalkami.php">Tentang kami</a>
                                 </li>
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link active" href="kontak.php">Kontak</a>
+                                    <a id="texttransisi" class="nav-link text-dark active" href="kontak.php">Kontak</a>
                                 </li>
                             </ul>
                             <!-- login / sign up -->
@@ -171,11 +171,17 @@
             <div class="row bg-white justify-content-center align-items-start text-center" style="width: 70vw; border-radius: 50px;">
                 <div class="col-md-4 mt-5">
                     <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                        <button class="nav-link bg-transparent active" id="v-pills-rekbca-tab" data-bs-toggle="pill" data-bs-target="#v-pills-rekbca" type="button" role="tab" aria-controls="v-pills-rekbca" aria-selected="false" tabindex="-1"><h1 class="display-6 f-plus-jakarta">Rek. BCA</h1></button>
-                        
-                        <button class="nav-link bg-transparent" id="v-pills-rekbni-tab" data-bs-toggle="pill" data-bs-target="#v-pills-rekbni" type="button" role="tab" aria-controls="v-pills-rekbni" aria-selected="false" tabindex="-1"><h1 class="display-6 f-plus-jakarta">Rek. BNI</h1></button>
-                        
-                        <button class="nav-link bg-transparent" id="v-pills-whatsapp-tab" data-bs-toggle="pill" data-bs-target="#v-pills-whatsapp" type="button" role="tab" aria-controls="v-pills-whatsapp" aria-selected="false" tabindex="-1"><h1 class="display-6 f-plus-jakarta">Kontak</h1></button>
+                        <button class="nav-link bg-transparent active" id="v-pills-rekbca-tab" data-bs-toggle="pill" data-bs-target="#v-pills-rekbca" type="button" role="tab" aria-controls="v-pills-rekbca" aria-selected="false" tabindex="-1">
+                            <h1 class="display-6 f-patrick-hand-regular">Rek. BCA</h1>
+                        </button>
+
+                        <button class="nav-link bg-transparent" id="v-pills-rekbni-tab" data-bs-toggle="pill" data-bs-target="#v-pills-rekbni" type="button" role="tab" aria-controls="v-pills-rekbni" aria-selected="false" tabindex="-1">
+                            <h1 class="display-6 f-patrick-hand-regular">Rek. BNI</h1>
+                        </button>
+
+                        <button class="nav-link bg-transparent" id="v-pills-whatsapp-tab" data-bs-toggle="pill" data-bs-target="#v-pills-whatsapp" type="button" role="tab" aria-controls="v-pills-whatsapp" aria-selected="false" tabindex="-1">
+                            <h1 class="display-6 f-patrick-hand-regular">Kontak</h1>
+                        </button>
                     </div>
                 </div>
                 <div class="col-md-6 mt-3">
@@ -189,31 +195,31 @@
                             <img class="img-fluid" src="assets/barcode/QR Code (2).jpg" alt="BarcodeBNI">
                             <p class="mt-3">Rek. BNI - 17500000000</p>
                         </div>
-                        
+
                         <div class="tab-pane fade mb-4" id="v-pills-whatsapp" role="tabpanel" aria-labelledby="v-pills-whatsapp-tab" tabindex="0">
                             <img class="img-fluid" src="assets/barcode/QR Code (2).jpg" alt="BarcodeBNI">
                             <p class="mt-3">Whatsapp - 08500000000</p>
+                        </div>
                     </div>
-                </div>
 
+                </div>
             </div>
-        </div>
     </section>
 
 
     <!-- footer -->
-    <footer class="bg-danger py-4 mt-auto">
+    <footer class="bg-warning py-4 mt-auto">
         <div class="container px-5">
             <div class="row align-items-center justify-content-between flex-column flex-sm-row">
                 <div class="col-auto">
-                    <div class="small m-0 text-white">Copyright &copy; King's Kid 2024</div>
+                    <div class="small m-0 text-dark">Copyright &copy; King's Kid 2024</div>
                 </div>
                 <div class="col-auto">
-                    <a class="small text-white" href="#!">Privacy</a>
+                    <a class="small text-dark" href="#!">Privacy</a>
                     <span class="mx-1">&middot;</span>
-                    <a class="small text-white" href="#!">Terms</a>
+                    <a class="small text-dark" href="#!">Terms</a>
                     <span class="mx-1">&middot;</span>
-                    <a class="small text-white" href="#!">Contact</a>
+                    <a class="small text-dark" href="#!">Contact</a>
                 </div>
             </div>
         </div>

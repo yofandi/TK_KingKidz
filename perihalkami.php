@@ -17,12 +17,12 @@
 </head>
 
 <body>
-    <main class="d-flex bg-danger tk-bgvisi" style="--background: url('../assets/line.png')">
+    <main class="d-flex bg-warning tk-bgvisi" style="--background: url('../assets/line.png')">
         <div class="container-fluid py-3">
-            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-danger" id="mynav">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-warning" id="mynav">
                 <div class="container">
                     <!-- logo -->
-                    <a class="navbar-brand fs-4" href="index.php"><img src="assets/image/Logo_KingsKid.png" alt="Bootstrap" width="60" height="45">TK King's Kidz</a>
+                    <a id="texttransisi" class="navbar-brand text-dark fs-4" href="index.php"><img src="assets/image/Logo_KingsKid.png" alt="Bootstrap" width="60" height="45">TK King's Kidz</a>
                     <!-- toggle button -->
                     <button class="navbar-toggler shaddow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -39,11 +39,11 @@
                         <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
                             <ul class="navbar-nav justify-content-center fs-5 flex-grow-1 pe-3">
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link" aria-current="page" href="index.php">Beranda</a>
+                                    <a id="texttransisi" class="nav-link text-dark active" aria-current="page" href="index.php">Beranda</a>
                                 </li>
                                 <!-- Profile dropdown -->
                                 <!-- <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#Profile" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown">Profile</a>
+                                    <a id="texttransisi" class="nav-link text-dark dropdown-toggle" href="#Profile" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown">Profile</a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <li><a class="dropdown-item" href=""></a></li>
                                         <li><a class="dropdown-item" href=""></a></li>
@@ -51,16 +51,17 @@
                                     </ul>
                                 </li> -->
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link" href="history.php">Sejarah</a>
+                                    <a id="texttransisi" class="nav-link text-dark" href="history.php">Sejarah</a>
                                 </li>
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link" href="visi.php">Visi & Misi</a>
+                                    <a id="texttransisi" class="nav-link text-dark" href="visi.php">Visi & Misi</a>
+                                </li>
+
+                                <li class="nav-item mx-2">
+                                    <a id="texttransisi" class="nav-link text-dark active" href="perihalkami.php">Tentang kami</a>
                                 </li>
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link active" href="perihalkami.php">Tentang kami</a>
-                                </li>
-                                <li class="nav-item mx-2">
-                                    <a class="nav-link" href="kontak.php">Kontak</a>
+                                    <a id="texttransisi" class="nav-link text-dark" href="kontak.php">Kontak</a>
                                 </li>
                             </ul>
                             <!-- login / sign up -->
@@ -81,9 +82,9 @@
                             <img src="assets/10135474.png" class="img-fluid" alt="">
                         </div>
                         <div class="col-lg-4">
-                            <h4 class="display-6 lead text-white f-brandSchool mt-3 mt-lg-0">TK King's Kidz</h4>
-                            <h1 class="display-1 fw-bolder"><span class="f-brandSchool text-white d-inline">Tentang Kami</span></h1>
-                            <div class="text-white">
+                            <h4 class="display-6 lead text-gradient-scarlet-with-shadow f-brandSchool mt-3 mt-lg-0">TK King's Kidz</h4>
+                            <h1 class="display-1 fw-bolder"><span class="f-brandSchool text-gradient-scarlet-with-shadow d-inline">Tentang Kami</span></h1>
+                            <div class="text-dark">
                                 <p class="fs-2 f-patrick-hand-regular">
                                     Growing In Excellent
                                 </p>
@@ -160,8 +161,8 @@
     </section> -->
     <div class="container py-5">
         <div class="row text-center justify-content-center mb-3">
-            <h1 class="text-gradient display-1 fw-bolder mb-0">Sekolah Kami</h1>
-            <hr class="border border-danger opacity-50 w-25">
+            <h1 class="text-gold display-1 fw-bolder mb-0">Sekolah Kami</h1>
+            <hr class="border border-warning opacity-50 w-25">
         </div>
         <div class="row g-5">
             <div class="col-md-8">
@@ -389,31 +390,35 @@
     </div>
 
     <!-- Footer-->
-    <footer class="bg-danger py-4 mt-auto">
+    <footer class="bg-warning py-4 mt-auto">
         <div class="container px-5">
             <div class="row align-items-center justify-content-between flex-column flex-sm-row">
                 <div class="col-auto">
-                    <div class="small m-0 text-white">Copyright &copy; King's Kid 2024</div>
+                    <div class="small m-0 text-dark">Copyright &copy; King's Kid 2024</div>
                 </div>
                 <div class="col-auto">
-                    <a class="small text-white" href="#!">Privacy</a>
+                    <a class="small text-dark" href="#!">Privacy</a>
                     <span class="mx-1">&middot;</span>
-                    <a class="small text-white" href="#!">Terms</a>
+                    <a class="small text-dark" href="#!">Terms</a>
                     <span class="mx-1">&middot;</span>
-                    <a class="small text-white" href="#!">Contact</a>
+                    <a class="small text-dark" href="#!">Contact</a>
                 </div>
             </div>
         </div>
     </footer>
 
     <!-- bootstrap js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    
     <!-- Lightbox JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.js"></script>
     <script>
         // Inisialisasi Lightbox
         baguetteBox.run('.lightbox');
     </script>
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- javascript page -->
+    <script src="js/style.js"></script>
 </body>
 
 </html>
