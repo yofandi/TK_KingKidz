@@ -197,6 +197,7 @@ p {
 
 .tk-bgvisi {
     height: 100vh;
+    min-height: 100vh;
     /* Adjust height as needed */
     background: var(--background) rgba(0, 0, 0, 0);
     padding: 10px 0;
@@ -237,6 +238,13 @@ p {
     background-repeat: no-repeat;
     z-index: -1;
     /* Taruh di bawah konten utama */
+}
+
+@media (max-width: 989px) {
+    .tk-bgimage {
+        width: auto;
+        height: 180vh;
+    }
 }
 
 @media (max-width: 767px) {
@@ -563,10 +571,25 @@ ol.f-patrick-hand-regular li {
     max-width: 100%;
 }
 
-.carousel-inner img {
+/* .carousel-item  img {
     width: 100%;
     height: 300px;
     object-fit: cover;
+} */
+
+.testimonial-card {
+    border: none;
+    background-color: #f8f9fa;
+    /* padding: 20px; */
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-img {
+    width: 40vw;
+    height: 40vh;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
 
 .nav-tabs .nav-link {

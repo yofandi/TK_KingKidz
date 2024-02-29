@@ -189,7 +189,7 @@
         </section>
 
         <!-- Testimoni -->
-        <div class="container bg-light mt-5">
+        <!-- <div class="container bg-light mt-5">
             <div class="card shadow border-0 card-slider">
                 <div class="text-center my-5">
                     <h2 class="display-5 card-title fw-bolder"><span class="text-gradient d-inline">Testimoni</span></h2>
@@ -197,15 +197,15 @@
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="https://via.placeholder.com/800x400" class="" alt="Slide 1">
-                            <div class="d-none" data-title="Anak saya berkembang luar biasa" data-caption="Anak saya telah menunjukkan perkembangan yang luar biasa sejak bergabung dengan TK Kings Kidz. Saya sangat senang melihat betapa bahagianya anak saya setiap hari, dan saya juga melihat bahwa ia menjadi lebih maju dan unggul dibandingkan dengan anak-anak sebayanya di sekitar rumah kami. -- "></div>
+                            <img class="img-fluid" src="assets/image/Mom_dan_Varez.jpg" class="" alt="Slide 1">
+                            <div class="d-none" data-title="Anak saya berkembang luar biasa" data-caption="Anak saya telah menunjukkan perkembangan yang luar biasa sejak bergabung dengan TK Kings Kidz. Saya sangat senang melihat betapa bahagianya anak saya setiap hari, dan saya juga melihat bahwa ia menjadi lebih maju dan unggul dibandingkan dengan anak-anak sebayanya di sekitar rumah kami. -- Mom Varez"></div>
                         </div>
                         <div class="carousel-item">
-                            <img src="https://via.placeholder.com/800x400" class="" alt="Slide 2">
+                            <img class="img-fluid" src="assets/image/Mom_dan_Djanuar.jpg" class="" alt="Slide 2">
                             <div class="d-none" data-title="Anak jadi aktif dan suka sekolah" data-caption="Jadi semakin aktif dan senang membantu di sekitar rumah sejak bergabung dengan TK Kings Kidz. Selain itu, semangat belajarnya juga semakin meningkat setiap harinya. Saya sangat bersyukur melihat perkembangannya. -- Mom Djanuar"></div>
                         </div>
                         <div class="carousel-item">
-                            <img src="https://via.placeholder.com/800x400" class="" alt="Slide 3">
+                            <img class="img-fluid" src="https://via.placeholder.com/800x400" class="" alt="Slide 3">
                             <div class="d-none" data-title="Dari pendiam jadi aktif dan ekspresif" data-caption="Saya sangat bersyukur melihat perubahan positif yang dialami anak saya sejak bergabung dengan TK Kings Kidz. Anak saya yang dulunya pendiam kini menjadi lebih berani, aktif, dan mandiri. Mereka telah belajar untuk bergaul dan mengekspresikan diri dengan lebih baik. Ini adalah sebuah perubahan yang luar biasa, dan saya sangat senang dengan perkembangan anak saya. - Mom Rein"></div>
                         </div>
                     </div>
@@ -223,16 +223,65 @@
                     <p class="card-text" id="carouselCaption"></p>
                 </div>
             </div>
-        </div>
-        <section class="py-5 bg-white">
-
+        </div> -->
+        <section class="py-5 bg-light">
+            <div class="container py-5">
+                <div class="row justify-content-center">
+                    <div class="text-center my-5">
+                        <h2 class="display-5 card-title fw-bolder"><span class="text-gradient d-inline">Testimoni</span></h2>
+                    </div>
+                    <div id="testimonialSlider" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#testimonialSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#testimonialSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#testimonialSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="text-center p-4">
+                                    <img src="assets/image/Mom_dan_Varez.jpg" alt="Mom Varez" class="testimonial-img">
+                                    <p class="mb-4">"Anak saya telah menunjukkan perkembangan yang luar biasa sejak bergabung dengan TK Kings Kidz. Saya sangat senang melihat betapa bahagianya anak saya setiap hari, dan saya juga melihat bahwa ia menjadi lebih maju dan unggul dibandingkan dengan anak-anak sebayanya di sekitar rumah kami."</p>
+                                    <h5 class="fw-bold">Mom Varez</h5>
+                                    <p>Orang Tua Murid</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="text-center p-4">
+                                    <img src="assets/image/Mom_dan_Djanuar.jpg" alt="Mom Djanuar" class="testimonial-img">
+                                    <p class="mb-4">"Jadi semakin aktif dan senang membantu di sekitar rumah sejak bergabung dengan TK Kings Kidz. Selain itu, semangat belajarnya juga semakin meningkat setiap harinya. Saya sangat bersyukur melihat perkembangannya. "</p>
+                                    <h5 class="fw-bold">Mom Djanuar</h5>
+                                    <p>Orang Tua Murid</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="text-center p-4">
+                                    <img src="https://via.placeholder.com/800x400" alt="Mom Reinhard" class="testimonial-img">
+                                    <p class="mb-4">"Dari pendiam jadi aktif dan ekspresif" data-caption="Saya sangat bersyukur melihat perubahan positif yang dialami anak saya sejak bergabung dengan TK Kings Kidz. Anak saya yang dulunya pendiam kini menjadi lebih berani, aktif, dan mandiri. Mereka telah belajar untuk bergaul dan mengekspresikan diri dengan lebih baik. Ini adalah sebuah perubahan yang luar biasa, dan saya sangat senang dengan perkembangan anak saya."</p>
+                                    <h5 class="fw-bold">Mom Reinhard</h5>
+                                    <p>Orang Tua Murid</p>
+                                </div>
+                            </div>
+                            <!-- Add more carousel items here -->
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialSlider" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonialSlider" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </section>
+
 
         <!-- kerjasama -->
         <div class="bg-white py-5 my-5" id="Partner">
             <div class="container">
                 <div class="row justify-content-center text-center py-5 mt-auto">
-                    <h2 class="display-4 fw-bolder mb-4">Kerjasama</h2> 
+                    <h2 class="display-4 fw-bolder mb-4">Kerjasama</h2>
                     <hr class="border border-warning opacity-50 w-50">
                 </div>
                 <div class="row justify-content-center">
@@ -246,14 +295,14 @@
                     <div class="col-md-4 mb-4">
                         <div class="card border-0">
                             <div class="card-body text-center">
-                                <img class="img-thumbnail border-0" src="https://ih1.redbubble.net/image.3259860502.3137/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"  width="200" height="200" alt="Partner 2">
+                                <img class="img-thumbnail border-0" src="https://ih1.redbubble.net/image.3259860502.3137/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg" width="200" height="200" alt="Partner 2">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 mb-4">
                         <div class="card border-0">
                             <div class="card-body text-center">
-                                <img class="img-thumbnail border-0" src="https://ih1.redbubble.net/image.3259860502.3137/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"  width="200" height="200" alt="Partner 3">
+                                <img class="img-thumbnail border-0" src="https://ih1.redbubble.net/image.3259860502.3137/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg" width="200" height="200" alt="Partner 3">
                             </div>
                         </div>
                     </div>
@@ -317,7 +366,7 @@
                 var caption = $activeCarouselItem.find('.d-none').data('caption');
 
                 // Tetapkan nilai data-caption ke elemen dengan ID carouselCaption
-                $('#carouselTitle').css('font-weight','bold').text(title);
+                $('#carouselTitle').css('font-weight', 'bold').text(title);
                 $('#carouselCaption').text(caption);
             });
         });
