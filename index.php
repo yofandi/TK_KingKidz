@@ -299,7 +299,7 @@ s
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4">
+                    <!-- <div class="col-md-4 mb-4">
                         <div class="card border-0">
                             <div class="card-body text-center">
                                 <img class="img-thumbnail border-0" src="https://ih1.redbubble.net/image.3259860502.3137/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg" width="200" height="200" alt="Partner 2">
@@ -312,7 +312,7 @@ s
                                 <img class="img-thumbnail border-0" src="https://ih1.redbubble.net/image.3259860502.3137/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg" width="200" height="200" alt="Partner 3">
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

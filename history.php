@@ -314,17 +314,19 @@
                         <div class="px-5">
                             <h2 class="fw-bolder f-patrick-hand-regular">Pendiri & Pemilik</h2>
                             <div class="text-muted f-plus-jakarta mission-list">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis natus nesciunt deleniti sit veniam adipisci? Non rem reiciendis qui iusto neque soluta id, quia obcaecati in quo facilis dolores atque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, consequuntur, quo autem temporibus molestiae eius soluta accusamus eum excepturi ducimus consequatur minus sunt. Dolores eius earum distinctio atque, voluptatibus repellendus.</p>
+                                <p>Bu Ruth Julia adalah seorang pengkhotbah dan pendiri dari TK Kings Kidz. Ia terinspirasi untuk membuka taman kanak-kanak ini sebagai bentuk balas budi atas bantuan finansial yang diterimanya dari seseorang yang membeasiswai beliau hingga lulus kuliah. Sebagai rasa terima kasih yang mendalam, Bu Ruth Julia berkomitmen untuk memberikan kesempatan pendidikan kepada orang-orang yang mengalami kesulitan dalam menyekolahkan anak-anak mereka.</p>
+                                <p>Bu Ruth Julia adalah seorang pengkhotbah dan pendiri dari TK Kings Kidz. Ia terinspirasi untuk membuka taman kanak-kanak ini sebagai bentuk balas budi atas bantuan finansial yang diterimanya dari seseorang yang membeasiswai beliau hingga lulus kuliah. Sebagai rasa terima kasih yang mendalam, Bu Ruth Julia berkomitmen untuk memberikan kesempatan pendidikan kepada orang-orang yang mengalami kesulitan dalam menyekolahkan anak-anak mereka.</p>
+                                <p>Sebagai seorang pengkhotbah, Bu Ruth Julia juga membawa nilai-nilai spiritual ke dalam lingkungan pendidikan TK Kings Kidz. Ia percaya bahwa pendidikan yang baik tidak hanya mencakup aspek akademis, tetapi juga moral dan spiritual. Dengan demikian, TK Kings Kidz tidak hanya berfokus pada pembelajaran akademis, tetapi juga pada pembentukan karakter dan nilai-nilai yang kuat dalam kehidupan anak-anak.</p>
+                                <p>Melalui kerja keras dan komitmen untuk memberikan pendidikan yang bermutu, TK Kings Kidz terus menjadi tempat yang ramah dan inklusif bagi setiap anak. Dengan kepemimpinan yang inspiratif dari Bu Ruth Julia, TK Kings Kidz terus berupaya untuk menjadi wadah pendidikan yang menyenangkan, bermakna, dan mempersiapkan anak-anak untuk masa depan yang cerah.</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 d-flex justify-content-center mt-5">
-                    <div class="card shadow-xl border-0" style="border-radius: 50px;">
-                        <div class="card-body">
-                            <div class="">
-                                <img src="assets/image/Bu_RutJulia.png" class="card-img-top img-fluid" alt="Founder TK King's Kidz">
+                    <div class="row">
+                        <div class="card shadow-xl border-0" style="border-radius: 50px; height: 30vh;">
+                            <div class="card-body">
+                                <img src="assets/image/Bu_RutJulia.png" class="img-fluid" style="max-width: 200px; height: auto;" alt="Founder TK King's Kidz">
                             </div>
                         </div>
                     </div>
