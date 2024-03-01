@@ -19,10 +19,10 @@
 <body class="d-flex flex-column">
     <main class="flex-shrink-0 bg-warning">
         <div class="container-fluid py-3 tk-bgimage" style="--background: url('../assets/line.png')">
-            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent" id="mynav">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-warning" id="mynav">
                 <div class="container">
                     <!-- logo -->
-                    <a id="texttransisi" class="navbar-brand text-white fs-4" href="index.php"><img src="assets/image/Logo_KingsKid.png" alt="Bootstrap" width="60" height="45">TK King's Kidz</a>
+                    <a id="texttransisi" class="navbar-brand text-dark fs-4" href="index.php"><img src="assets/image/Logo_KingsKid.png" alt="Bootstrap" width="60" height="45">TK King's Kidz</a>
                     <!-- toggle button -->
                     <button class="navbar-toggler shaddow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -39,11 +39,11 @@
                         <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
                             <ul class="navbar-nav justify-content-center fs-5 flex-grow-1 pe-3">
                                 <li class="nav-item mx-2">
-                                    <a id="texttransisi" class="nav-link text-white" aria-current="page" href="index.php">Beranda</a>
+                                    <a id="texttransisi" class="nav-link text-dark" aria-current="page" href="index.php">Beranda</a>
                                 </li>
                                 <!-- Profile dropdown -->
                                 <!-- <li class="nav-item dropdown">
-                                    <a id="texttransisi" class="nav-link text-white dropdown-toggle" href="#Profile" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown">Profile</a>
+                                    <a id="texttransisi" class="nav-link text-dark dropdown-toggle" href="#Profile" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown">Profile</a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <li><a class="dropdown-item" href=""></a></li>
                                         <li><a class="dropdown-item" href=""></a></li>
@@ -51,17 +51,17 @@
                                     </ul>
                                 </li> -->
                                 <li class="nav-item mx-2">
-                                    <a id="texttransisi" class="nav-link text-white" href="history.php">Sejarah</a>
+                                    <a id="texttransisi" class="nav-link text-dark" href="history.php">Sejarah</a>
                                 </li>
                                 <li class="nav-item mx-2">
-                                    <a id="texttransisi" class="nav-link text-white active" href="visi.php">Visi & Misi</a>
+                                    <a id="texttransisi" class="nav-link text-dark active" href="visi.php">Visi & Misi</a>
                                 </li>
 
                                 <li class="nav-item mx-2">
-                                    <a id="texttransisi" class="nav-link text-white" href="perihalkami.php">Tentang kami</a>
+                                    <a id="texttransisi" class="nav-link text-dark" href="perihalkami.php">Tentang kami</a>
                                 </li>
                                 <li class="nav-item mx-2">
-                                    <a id="texttransisi" class="nav-link text-white" href="kontak.php">Kontak</a>
+                                    <a id="texttransisi" class="nav-link text-dark" href="kontak.php">Kontak</a>
                                 </li>
                             </ul>
                             <!-- login / sign up -->
@@ -418,7 +418,7 @@
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <!-- javascript page -->
-    <script src="js/style.js"></script>
+    <!-- <script src="js/style.js"></script> -->
 </body>
 
 </html>

@@ -238,27 +238,33 @@
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <div class="text-center p-4">
+                                <div class="card text-center p-4 align-items-center border-0" style="border-radius: 20px;">
                                     <img src="assets/image/Mom_dan_Varez.jpg" alt="Mom Varez" class="testimonial-img">
-                                    <p class="mb-4">"Anak saya telah menunjukkan perkembangan yang luar biasa sejak bergabung dengan TK Kings Kidz. Saya sangat senang melihat betapa bahagianya anak saya setiap hari, dan saya juga melihat bahwa ia menjadi lebih maju dan unggul dibandingkan dengan anak-anak sebayanya di sekitar rumah kami."</p>
-                                    <h5 class="fw-bold">Mom Varez</h5>
-                                    <p>Orang Tua Murid</p>
+                                    <div class="card-body">
+                                        <p class="mb-4 testimony-text">"Anak saya telah menunjukkan perkembangan yang luar biasa sejak bergabung dengan TK Kings Kidz. Saya sangat senang melihat betapa bahagianya anak saya setiap hari, dan saya juga melihat bahwa ia menjadi lebih maju dan unggul dibandingkan dengan anak-anak sebayanya di sekitar rumah kami."</p>
+                                        <h5 class="fw-bold">Mom Varez</h5>
+                                        <p>Orang Tua Murid</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="text-center p-4">
+                                <div class="card text-center p-4 align-items-center border-0" style="border-radius: 20px;">
                                     <img src="assets/image/Mom_dan_Djanuar.jpg" alt="Mom Djanuar" class="testimonial-img">
-                                    <p class="mb-4">"Jadi semakin aktif dan senang membantu di sekitar rumah sejak bergabung dengan TK Kings Kidz. Selain itu, semangat belajarnya juga semakin meningkat setiap harinya. Saya sangat bersyukur melihat perkembangannya. "</p>
-                                    <h5 class="fw-bold">Mom Djanuar</h5>
-                                    <p>Orang Tua Murid</p>
+                                    <div class="card-body">
+                                        <p class="mb-4 testimony-text">"Jadi semakin aktif dan senang membantu di sekitar rumah sejak bergabung dengan TK Kings Kidz. Selain itu, semangat belajarnya juga semakin meningkat setiap harinya. Saya sangat bersyukur melihat perkembangannya. "</p>
+                                        <h5 class="fw-bold">Mom Djanuar</h5>
+                                        <p>Orang Tua Murid</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="text-center p-4">
+                                <div class="card text-center p-4 align-items-center border-0" style="border-radius: 20px;">
                                     <img src="https://via.placeholder.com/800x400" alt="Mom Reinhard" class="testimonial-img">
-                                    <p class="mb-4">"Dari pendiam jadi aktif dan ekspresif" data-caption="Saya sangat bersyukur melihat perubahan positif yang dialami anak saya sejak bergabung dengan TK Kings Kidz. Anak saya yang dulunya pendiam kini menjadi lebih berani, aktif, dan mandiri. Mereka telah belajar untuk bergaul dan mengekspresikan diri dengan lebih baik. Ini adalah sebuah perubahan yang luar biasa, dan saya sangat senang dengan perkembangan anak saya."</p>
-                                    <h5 class="fw-bold">Mom Reinhard</h5>
-                                    <p>Orang Tua Murid</p>
+                                    <div class="card-body">
+                                        <p class="mb-4 testimony-text">"Dari pendiam jadi aktif dan ekspresif" data-caption="Saya sangat bersyukur melihat perubahan positif yang dialami anak saya sejak bergabung dengan TK Kings Kidz. Anak saya yang dulunya pendiam kini menjadi lebih berani, aktif, dan mandiri. Mereka telah belajar untuk bergaul dan mengekspresikan diri dengan lebih baik. Ini adalah sebuah perubahan yang luar biasa, dan saya sangat senang dengan perkembangan anak saya."</p>
+                                        <h5 class="fw-bold">Mom Reinhard</h5>
+                                        <p>Orang Tua Murid</p>
+                                    </div>
                                 </div>
                             </div>
                             <!-- Add more carousel items here -->
@@ -275,6 +281,7 @@
                 </div>
             </div>
         </section>
+s
 
 
         <!-- kerjasama -->

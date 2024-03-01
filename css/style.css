@@ -586,10 +586,18 @@ ol.f-patrick-hand-regular li {
 }
 
 .testimonial-img {
-    width: 40vw;
-    height: 40vh;
+    border: 5px;
+    width: 30vh;
+    height: 30vh; /* Menggunakan auto untuk menjaga proporsi aspek gambar */
     border-radius: 50%;
     margin-bottom: 20px;
+    outline: 5px solid #ffc1076c;
+}
+
+.testimony-text {
+    max-width: 500px; /* Atur lebar maksimum yang diinginkan */
+    margin-left: auto;
+    margin-right: auto; /* Untuk membuat paragraf berada di tengah */
 }
 
 .nav-tabs .nav-link {
