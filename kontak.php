@@ -162,42 +162,36 @@
     </div>
 
     <!-- donasi -->
-    <section class="bg-light py-5 tk-bgimage" style="--background: url('../assets/donation_png.png');">
-        <div class="container my-5 px-5">
+    <section class="bg-light py-5 tk-bgimage" style="background-image: url('assets/donation_png.png');">
+        <div class="container my-5 px-3 px-md-5">
             <div class="row text-center">
                 <h1 class="display-5 fw-bolder"><span class="text-gradient d-inline f-brandSchool">Donasi</span></h1>
             </div>
-            <div class="row bg-white justify-content-center align-items-center text-center" style="width: 70vw; height: 50vh; border-radius: 50px;">
-                <div class="col-md-4 mt-5">
+            <div class="row bg-white justify-content-center align-items-center text-center py-5 py-md-5" style="border-radius: 50px;">
+                <div class="col-md-4 mt-4 mt-md-5">
                     <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                        <button class="nav-link bg-transparent active" id="v-pills-rekbca-tab" data-bs-toggle="pill" data-bs-target="#v-pills-rekbca" type="button" role="tab" aria-controls="v-pills-rekbca" aria-selected="false" tabindex="-1">
+                        <button class="nav-link bg-transparent active" id="v-pills-rekbca-tab" data-bs-toggle="pill" data-bs-target="#v-pills-rekbca" type="button" role="tab" aria-controls="v-pills-rekbca" aria-selected="true">
                             <h1 class="display-6 f-patrick-hand-regular">Rek. BCA</h1>
                         </button>
-
-                        <button class="nav-link bg-transparent" id="v-pills-whatsapp-tab" data-bs-toggle="pill" data-bs-target="#v-pills-whatsapp" type="button" role="tab" aria-controls="v-pills-whatsapp" aria-selected="false" tabindex="-1">
+                        <button class="nav-link bg-transparent" id="v-pills-whatsapp-tab" data-bs-toggle="pill" data-bs-target="#v-pills-whatsapp" type="button" role="tab" aria-controls="v-pills-whatsapp" aria-selected="false">
                             <h1 class="display-6 f-patrick-hand-regular">Kontak</h1>
                         </button>
                     </div>
                 </div>
                 <div class="col-md-6 mt-3">
                     <div class="tab-content" id="v-pills-tabContent">
-                        <div class="tab-pane fade show active mb-4" id="v-pills-rekbca" role="tabpanel" aria-labelledby="v-pills-rekbca-tab" tabindex="0">
+                        <div class="tab-pane fade show active" id="v-pills-rekbca" role="tabpanel" aria-labelledby="v-pills-rekbca-tab">
                             <div class="text-center d-flex justify-content-center align-items-center">
-                                <!-- <img class="img-fluid" src="assets/barcode/QR Code (1).jpg" alt="BarcodeBCA"> -->
-                                <div class="text-center" style="height: 30vh;">
-                                    <div class="row d-flex justify-content-center align-items-center">
-                                        <img src="assets/bcapng.png" alt="bca" style="width: 13rem;">
-                                        <p class="fs-3 fw-bold mt-2">
-                                            8291595588 <br>
-                                            (Djulia Ekawidjaja Or Amelia Jauwena)
-                                        </p>
-                                    </div>
+                                <div class="row d-flex justify-content-center align-items-center">
+                                    <img src="assets/bcapng.png" alt="BCA" style="width: 13rem;">
+                                    <p class="fs-3 fw-bold mt-2">
+                                        8291595588 <br>
+                                        (Djulia Ekawidjaja Or Amelia Jauwena)
+                                    </p>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="tab-pane fade mb-4" id="v-pills-whatsapp" role="tabpanel" aria-labelledby="v-pills-whatsapp-tab" tabindex="0">
-                            <!-- <img class="img-fluid" src="assets/barcode/QR Code (2).jpg" alt="BarcodeBNI"> -->
+                        <div class="tab-pane fade" id="v-pills-whatsapp" role="tabpanel" aria-labelledby="v-pills-whatsapp-tab">
                             <div class="text-center d-flex justify-content-center align-items-center" style="height: 30vh;">
                                 <div class="row">
                                     <i class="bi bi-whatsapp text-success" style="font-size: 4rem;"></i>
