@@ -14,8 +14,8 @@
 </head>
 
 <body>
-    <main class="d-flex">
-        <div class="container-fluid py-3 tk-bgimage" style="--background: url('../assets/map_line.png');">
+    <main class="d-flex tk-bgimage" style="--background: url('../assets/map_line.png');">
+        <div class="container-fluid py-3">
             <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-warning" id="mynav">
                 <div class="container">
                     <!-- logo -->
