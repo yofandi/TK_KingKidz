@@ -254,6 +254,14 @@ p {
     }
 }
 
+
+@media (max-width: 403px) {
+    .tk-bgimage {
+        width: auto;
+        height: 150vh;
+    }
+}
+
 .social {
     list-style: none;
     padding: 0;
@@ -725,6 +733,15 @@ ol.f-patrick-hand-regular li {
     .fs-6.list-numbered {
         font-size: 0.8rem;
         /* Ukuran font lebih kecil untuk layar yang lebih kecil */
+    }
+}
+
+@media (max-width: 379px) {
+    .scroll-history {
+        height: 1100px;
+        /* Atur ketinggian maksimum untuk daftar misi */
+        overflow-y: auto;
+        /* Tambahkan overflow-y untuk scroll jika konten terlalu panjang */
     }
 }
 

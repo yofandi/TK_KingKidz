@@ -114,14 +114,16 @@
         <section class="bg-light py-5 tk-bgimage" style="--background: url('../assets/8829751.png')">
             <!-- halaman penjelasan sejarah -->
             <div class="container my-5 px-5">
-                <div class="row text-left justify-content-start mb-3">
-                    <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient-color-with-shadow d-inline f-brandSchool">Sejarah</span></h1>
-                    <hr class="border border-danger opacity-50 w-25">
+                <div class="row">
                 </div>
                 <div class="row d-flex">
                     <div class="col-lg-8 ps-2" id="contentHistory">
                         <div class="card shadow border-0">
-                            <div class="card-body">
+                            <div class="card-title text-left justify-content-start mb-3 px-4">
+                                <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient-color-with-shadow d-inline f-brandSchool">Sejarah</span></h1>
+                                <hr class="border border-danger opacity-50 w-25">
+                            </div>
+                            <div class="card-body scroll-history">
                                 <p class="text-muted">
                                     King's Kidz didirikan pada bulan Oktober 2008. Kami memulai tahun ajaran baru kami cukup mepet di awal Januari 2009. Ini merupakan kali pertama King's Kidz menempati lokasi, bertempat di Satelit Indah. Pembentukan sekolah ini berawal dari visi pribadi Ibu Ruth Julia selaku Founder yang berdasarkan pengalaman pribadi beliau yang berasal dari keluarga dengan keterbatasan keuangan. Sepanjang masa SMA dan kuliah, beliau bertemu dengan individu baik hati yang memberikan beasiswa, dan yang terakhir memberi beasiswa kuliah hingga selesai.
                                 </p>
