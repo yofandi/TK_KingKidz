@@ -14,8 +14,8 @@
 </head>
 
 <body>
-    <main class="d-flex tk-bgimage" style="--background: url('../assets/map_line.png');">
-        <div class="container-fluid py-3">
+    <main class="d-flex">
+        <div class="container-fluid py-3 tk-bgimage" style="--background: url('../assets/map_line.png');">
             <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-warning" id="mynav">
                 <div class="container">
                     <!-- logo -->
@@ -76,14 +76,14 @@
                 <div class="container-fluid my-5">
                     <div class="row justify-content-center align-items-center">
                         <div class="col-lg-4 col-md-6 mb-3 mb-lg-0 text-center">
-                            <img src="assets/7125203.png" class="img-fluid" width="300vw">
+                            <img src="assets/7125203.png" class="img-fluid contact-map">
                         </div>
                     </div>
                     <div class="row justify-content-center align-items-center">
                         <div class="col-lg-6 col-md-8">
                             <div class="card border border-white border-4 shadow bg-danger" style="border-radius: 50px;">
                                 <div class="card-body">
-                                    <div class="text-start text-center">
+                                    <div class="text-center">
                                         <h4 class="display-5 lead f-brandSchool text-gradient-gold-with-shadow">Lokasi</h4>
                                         <h1 class="display-1 fw-bolder"><span class="text-gradient-gold-with-shadow d-inline f-brandSchool">TK King's Kidz</span></h1>
                                     </div>
@@ -101,7 +101,6 @@
                     </div>
                 </div>
             </header>
-
         </div>
     </main>
 

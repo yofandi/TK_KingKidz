@@ -243,7 +243,16 @@ p {
 @media (max-width: 989px) {
     .tk-bgimage {
         width: auto;
-        height: 180vh;
+        height: 60vh;
+    }    
+    .scroll-history {
+        height: 30vh;
+        /* Atur ketinggian maksimum untuk daftar misi */
+        overflow-y: auto;
+        /* Tambahkan overflow-y untuk scroll jika konten terlalu panjang */
+    }
+    .contact-map {
+        width: 140px;
     }
 }
 
@@ -252,13 +261,40 @@ p {
         width: auto;
         height: 135vh;
     }
+    .scroll-history {
+        height: 100vh;
+        /* Atur ketinggian maksimum untuk daftar misi */
+        overflow-y: auto;
+        /* Tambahkan overflow-y untuk scroll jika konten terlalu panjang */
+    }
+    .contact-map {
+        width: 150vw;
+    }
 }
 
-
-@media (max-width: 403px) {
+@media (max-width: 565px) {
     .tk-bgimage {
         width: auto;
-        height: 150vh;
+        height: 110vh;
+    }
+    .scroll-history {
+        height: 80vh;
+        /* Atur ketinggian maksimum untuk daftar misi */
+        overflow-y: auto;
+        /* Tambahkan overflow-y untuk scroll jika konten terlalu panjang */
+    }
+}
+
+@media (max-width: 375px) {
+    .tk-bgimage {
+        width: auto;
+        height: 90vh;
+    }
+    .scroll-history {
+        height: 60vh;
+        /* Atur ketinggian maksimum untuk daftar misi */
+        overflow-y: auto;
+        /* Tambahkan overflow-y untuk scroll jika konten terlalu panjang */
     }
 }
 
@@ -733,15 +769,6 @@ ol.f-patrick-hand-regular li {
     .fs-6.list-numbered {
         font-size: 0.8rem;
         /* Ukuran font lebih kecil untuk layar yang lebih kecil */
-    }
-}
-
-@media (max-width: 379px) {
-    .scroll-history {
-        height: 1100px;
-        /* Atur ketinggian maksimum untuk daftar misi */
-        overflow-y: auto;
-        /* Tambahkan overflow-y untuk scroll jika konten terlalu panjang */
     }
 }
 
