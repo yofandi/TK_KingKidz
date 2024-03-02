@@ -261,7 +261,7 @@
                                 <div class="card text-center p-4 align-items-center border-0" style="border-radius: 20px;">
                                     <img src="https://via.placeholder.com/800x400" alt="Mom Reinhard" class="testimonial-img">
                                     <div class="card-body">
-                                        <p class="mb-4 testimony-text">"Dari pendiam jadi aktif dan ekspresif" data-caption="Saya sangat bersyukur melihat perubahan positif yang dialami anak saya sejak bergabung dengan TK Kings Kidz. Anak saya yang dulunya pendiam kini menjadi lebih berani, aktif, dan mandiri. Mereka telah belajar untuk bergaul dan mengekspresikan diri dengan lebih baik. Ini adalah sebuah perubahan yang luar biasa, dan saya sangat senang dengan perkembangan anak saya."</p>
+                                        <p class="mb-4 testimony-text">"Dari pendiam jadi aktif dan ekspresif. Saya sangat bersyukur melihat perubahan positif yang dialami anak saya sejak bergabung dengan TK Kings Kidz. Anak saya yang dulunya pendiam kini menjadi lebih berani, aktif, dan mandiri. Mereka telah belajar untuk bergaul dan mengekspresikan diri dengan lebih baik. Ini adalah sebuah perubahan yang luar biasa, dan saya sangat senang dengan perkembangan anak saya."</p>
                                         <h5 class="fw-bold">Mom Reinhard</h5>
                                         <p>Orang Tua Murid</p>
                                     </div>
