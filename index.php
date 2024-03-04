@@ -106,10 +106,10 @@
             <div class="container-fluid">
                 <div class="row justify-content-center bg-warning">
                     <div class="col mt-2 text-dark text-end">
-                        <p><i class="bi bi-telephone-fill"></i> (0331) 4350050 <i class="bi bi-telephone-fill"></i> (0331) 4350327 <i class="bi bi-telephone-fill"></i> (031) 99446671 <i class="bi bi-telephone-fill"></i> 08123-0033-880 </p>
+                        <!-- <p><i class="bi bi-telephone-fill"></i> (0331) 4350050 <i class="bi bi-telephone-fill"></i> (0331) 4350327 <i class="bi bi-telephone-fill"></i> (031) 99446671 <i class="bi bi-telephone-fill"></i> 08123-0033-880 </p> -->
                     </div>
                     <div class="col">
-                        <ul class="text-dark text-end social mt-2">
+                        <ul class="text-dark text-end social mt-2 py-2">
                             <li class="social-shared"> <i class="bi bi-facebook"></i> </li>
                             <li class="social-shared"> <i class="bi bi-instagram"></i> </li>
                             <li class="social-shared"> <i class="bi bi-twitter-x"></i> </li>
