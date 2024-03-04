@@ -121,18 +121,28 @@
 
         <!-- sekilas -->
         <section class="bg-light py-5 position-relative tk-bgimage" style="--background: url('../assets/Artboard1.png')" id="About">
-            <div class=""></div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-8">
                         <div class="text-start text-wrap my-5">
                             <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline f-brandSchool">Sekilas</span></h2>
-                            <p class="text-muted f-plus-jakarta">TK King's Kid adalah sebuah lembaga pendidikan non-profit yang berkomitmen untuk memberikan akses pendidikan berkualitas bagi masyarakat menengah ke bawah. Sebagai lembaga yang didedikasikan untuk keberlanjutan dan pemerataan pendidikan, TK King's Kid berusaha memberikan peluang belajar yang setara bagi semua anak, tanpa memandang latar belakang ekonomi. Organisasi ini beroperasi dengan tujuan mendasar untuk mengurangi kesenjangan pendidikan dan memberikan dasar yang kuat bagi perkembangan anak-anak.</p>
-                            <p class="text-muted f-plus-jakarta">Dengan menggunakan pendekatan yang holistik dan inklusif, TK King's Kid tidak hanya memberikan ajaran akademis, tetapi juga memperhatikan aspek-aspek perkembangan sosial dan emosional anak-anak. Kurikulum yang disusun dengan cermat didesain untuk merangsang rasa ingin tahu dan kreativitas anak-anak, sambil membangun nilai-nilai moral yang kuat.</p>
+                            <p class="text-muted f-plus-jakarta">Sekolah Kings Kidz, atau TK Kings Kidz, merupakan sebuah lembaga pendidikan yang berfokus pada pelayanan kemanusiaan. Kami berkomitmen untuk membantu anak-anak yang tidak memiliki akses ke pendidikan, terutama anak-anak dari keluarga kurang mampu secara ekonomi. Fokus utama kami adalah anak-anak yang akan memasuki pendidikan awal, yaitu Pendidikan Anak Usia Dini (PAUD), khususnya untuk pendidikan Taman Kanak-Kanak (TK).</p>
+
+                            <p class="text-muted f-plus-jakarta">Selain menyediakan pendidikan formal, TK Kings Kidz juga memberikan perhatian khusus kepada perkembangan anak secara holistik. Kami tidak hanya fokus pada aspek akademis, tetapi juga pada pengembangan keterampilan sosial, emosional, dan karakter anak-anak.
+                            </p>
                         </div>
                     </div>
-                    <div class="col-lg-6 d-flex justify-content-center align-items-center my-5">
-                        <img class="img-fluid" src="assets/forhistory - def.png" alt="">
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 d-flex justify-content-center align-items-center my-5">
+                        <img class="img-fluid" src="assets/forhistory - def.png" alt="" width="500vw">
+                    </div>
+                    <div class="col-lg-7 d-flex justify-content-center align-items-center my-5">
+                        <div class="text-end text-wrap my-5">
+                        <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline f-brandSchool">Latar Belakang</span></h2>
+                            <p class="text-muted f-plus-jakarta">Tk. Kings Kidz dibentuk sekitar tahun 2008 dimulai dari kerinduan anak-anak Tuhan akan adanya sekolah umum yang berfondasikan kekristenan tapi tetap memberikan kualitas pembelajaran yang terbaik yang mungkin hanya bisa didapatkan dari sekolah berbayar saja bukan sekolah non profit seperti TK. Kings Kidz. Dan dengan rasa kerinduan akan adanya sekolah Non Profit dan rasa tanggung jawab moral atas dunia pendidikan dibangsa ini khususnya di kota Surabaya, maka seorang Hamba Tuhan bernama Ev. Ruth Julia mendirikan sekolah TK. Kings Kidz dengan konsep Sekolah Umum berbasis ke-Kristenan Non Profit tapi tetap mengedepankan sistem pembelajaran yang terbaik seperti sekolah berbayar atau lebih baik dari sekolah berbayar pada umumnya.</p>
+                            <p class="text-muted f-plus-jakarta">Sudah 9 tahun sekolah ini berdiri dan lebih 300 anak-anak telah menyelesaikan pembelajaran ditempat ini. Sekolah ini sudah mengalami banyak sekali tantangan dan rintangan sampai pergantian staff pengajar, dan sekarang sekolah ini sudah berdiri selama ± 4 tahun ditempat yang baru yang lebih baik, dan kami masih terus bermimpi dan berdoa untuk sekolah ini menjadi lebih baik dan menjadi besar sehingga sekolah kami bisa menjadi berkat buat banyak orang dan bangsa Indonesia.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
@@ -281,7 +291,7 @@
                 </div>
             </div>
         </section>
-s
+        s
 
 
         <!-- kerjasama -->

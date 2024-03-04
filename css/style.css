@@ -243,7 +243,7 @@ p {
 @media (max-width: 989px) {
     .tk-bgimage {
         width: auto;
-        height: 60vh;
+        height: 170vh;
     }    
     .scroll-history {
         height: 30vh;

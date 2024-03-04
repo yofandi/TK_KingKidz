@@ -116,8 +116,11 @@
                             </div>
                         </div>
                         <div class="col-lg-8 col-md-6">
-                            <div class="lead fs-4">
-                                Walaupun King's Kidz menyediakan pendidikan secara gratis, kami menegaskan bahwa kualitas yang kami tawarkan bukanlah murahan. Kami memiliki tekad kuat untuk memberikan yang terbaik kepada setiap siswa. Dalam segala aspek, mulai dari kurikulum hingga fasilitas, King's Kidz berkomitmen untuk menyediakan standar pendidikan yang tinggi. Kami percaya bahwa pendidikan berkualitas tidak harus mahal, dan setiap anak berhak mendapatkan akses ke pembelajaran yang bermutu. Oleh karena itu, meskipun biaya sekolahnya gratis, kami tetap menjaga standar kualitas pendidikan dan memberikan pengalaman belajar yang memadai. Bagi kami, sekolah gratis bukanlah alasan untuk mengurangi kualitas; sebaliknya, itu adalah kesempatan untuk membuktikan bahwa pendidikan berkualitas dapat diakses oleh semua kalangan.
+                            <div class="lead text-muted f-plus-jakarta">
+                            TK. Kings Kidz memiliki program yang sejalan dengan program Pemerintah khususnya dalam hal  kurikulum dari Dinas Pendidikan. TK. Kings Kidz juga melakukan beberapa penambahan dalam program pendidikan yang dijalankan dengan tujuan untuk menyesuaikan dalam pencapaian target yang kami harapkan sehingga anak-anak bertumbuh menjadi pribadi yang berkarakter dan luar biasa.
+                            </div><br>
+                            <div class="lead text-muted f-plus-jakarta">
+                            Setiap tahun TK. Kings Kidz selalu berkerjasama dengan pihak-pihak dari luar sekolah untuk melalukan kegiatan pengembangan dan pelatihan yang bertujuan untuk meningkatkan kualitas dari sekolah kami, seperti berkerjasama dengan UK. Petra atau mendatangkan Trainer-trainer terbaik dalam bidang pendidikan dan masih banyak lagi. Semua itu kami lakukan untuk menjadikan sekolah berkembang maju dan terus berinovasi dalam dunia pendidikan.
                             </div>
                         </div>
                     </div>

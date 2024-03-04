@@ -16,7 +16,7 @@
 
 <body class="d-flex flex-column">
     <main class="flex-shrink-0 bg-warning">
-        <div class="container-fluid py-3 tk-bgimage" style="--background: url('../assets/forHistory.png')">
+        <div class="container-fluid py-3 tk-bgvisi" style="--background: url('../assets/forHistory.png')">
             <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent" id="mynav">
                 <div class="container">
                     <!-- logo -->
@@ -76,10 +76,10 @@
             <header class="py-5">
                 <div class="container-fluid my-5">
                     <div class="row text-center text-lg-start align-items-center justify-content-center">
-                        <div class="col-md-4 mb-3 mb-md-0">
-                            <img src="assets/8728865.png" class="img-fluid" alt="">
+                        <div class="col-md-4 my-5 mb-md-0">
+                            <img src="assets/8728865.png" class="img-fluid" width="500vw">
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 mt-5">
                             <h4 class="display-5 lead text-gradient-scarlet-with-shadow mt-3 mt-lg-0 f-brandSchool">TK King's Kidz</h4>
                             <h1 class="display-1 fw-bolder"><span class="text-gradient-scarlet-with-shadow d-inline f-brandSchool">Sejarah</span></h1>
                             <div class="text-dark">

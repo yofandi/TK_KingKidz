@@ -120,29 +120,21 @@
                             </li>
                         </ul>
                         <div class="tab-content">
-                            <div class="tab-pane fade show active" id="visi" role="tabpanel" aria-labelledby="visi-tab" style="border-radius: 50px;">
+                            <div class="tab-pane fade show active" id="visi" role="tabpanel" aria-labelledby="visi-tab" style="border-radius: 10px;">
                                 <div class="mission-list">
-                                    <p class="text-muted f-patrick-hand-regular fs-4">
-                                    King's Kidz menegaskan komitmennya untuk memberikan pendidikan terbaik kepada setiap anak dengan menawarkan fasilitas berkualitas yang sesuai dengan standar pendidikan yang tinggi. Kami percaya bahwa kualitas pendidikan tidak boleh dikorbankan hanya demi memenuhi standar atau karena faktor keuangan semata. Dalam setiap aspek pembelajaran, kami berupaya untuk memberikan yang terbaik bagi perkembangan anak-anak kami. Fasilitas yang kami sediakan dirancang untuk mendukung proses pembelajaran yang optimal dan menyenangkan, mencakup ruang kelas yang nyaman, area bermain yang aman, serta mendukung kegiatan pembelajaran. Kami meyakini bahwa setiap anak berhak mendapat akses terbaik untuk meraih potensi mereka secara penuh, dan inilah yang menjadi landasan filosofi pendidikan di King's Kidz.
-                                    </p>
+                                    <ul class="fs-4 list-numbered f-brandSchool">
+                                        <li class="text-muted">Membawa anak untuk takut akan Tuhan dan memiliki karakter Ilahi.</li>
+                                        <li class="text-muted">Membimbing anak dengan iman, kasih dan pengetahuan.</li>
+                                        <li class="text-muted">Membentuk pribadi yang mandiri serta percaya diri.</li>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="misi" role="tabpanel" aria-labelledby="misi-tab" style="border-radius: 50px;">
                                 <div class="mission-list">
                                     <ol class="fs-4 list-numbered f-brandSchool">
-                                        <li class="text-muted">Mengembangkan solusi teknologi canggih.</li>
-                                        <li class="text-muted">Menyediakan lingkungan kerja yang inspiratif.</li>
-                                        <li class="text-muted">Menciptakan nilai tambah bagi pelanggan dan pemangku kepentingan.</li>
-                                        <li class="text-muted">Mengembangkan Kreativitas dan Inovasi</li>
-                                        <li class="text-muted">Membangun Dasar Pendidikan Berkualitas</li>
-                                        <li class="text-muted">Menanamkan Nilai-Nilai Moral dan Etika</li>
-                                        <li class="text-muted">Mengintegrasikan Teknologi dalam Pembelajaran</li>
-                                        <li class="text-muted">Menciptakan Lingkungan Ramah Anak</li>
-                                        <li class="text-muted">Mendorong Pembelajaran Kolaboratif</li>
-                                        <li class="text-muted">Mengembangkan Keterampilan Sosial dan Emosional</li>
-                                        <li class="text-muted">Memelihara Kepekaan terhadap Keanekaragaman</li>
-                                        <li class="text-muted">Menyediakan Lingkungan Pembelajaran yang Fleksibel</li>
-                                        <li class="text-muted">Melibatkan Orang Tua dalam Pembelajaran</li>
+                                        <li class="text-muted">Memberikan pendidikan karakter yang berdasar kepada kebenaran Firman Tuhan.</li>
+                                        <li class="text-muted">Melatih ketaqwaan pribadi dan berwawasan luas.</li>
+                                        <li class="text-muted">Melatih keberanian anak untuk mengaktualisasikan diri dalam keluarga serta masyarakat pada umumnya.</li>
                                     </ol>
                                 </div>
                             </div>
@@ -162,32 +154,20 @@
                     <h1 class="display-2 fw-bolder text-white f-brandSchool"><em>King's Kidz</em></h1>
                 </div>
                 <div class="col-md-6 text-white">
-                    <h1 class="display-5 fw-bolder f-brandSchool">Nilai-Nilai Yang Dibawa</h1>
-                    <hr class="border border-white w-50 mx-auto">
+                    <h1 class="display-5 fw-bolder f-brandSchool">Target Kami</h1>
+                    <hr class="border border-white w-100 mx-auto">
                     <ol class="fs-6 list-numbered f-patrick-hand-regular">
                         <li>
-                            <h4 class="">Semua Anak Penting:</h4>
-                            Di TK King's Kidz, setiap anak dianggap istimewa. Tak peduli dari mana mereka berasal atau kondisi ekonomi keluarganya, semua anak punya hak untuk belajar dengan senang.
+                            <h4 class="">Berkarakter yang baik</h4>
+                            Mendidik dan membentuk anak-anak untuk memiliki karakter yang baik berdasarkan Kasih Kristus sebagai dasar dari iman Kekristenan sekolah kami
                         </li>
                         <li>
-                            <h4>Adil untuk Semua:</h4>
-                            Kita percaya bahwa semua anak memiliki hak yang sama untuk belajar dan berkembang. Di sini, tidak ada perbedaan perlakuan berdasarkan keadaan ekonomi.
+                            <h4>Berbudi Baik:</h4>
+                            Mendidik dan menjadikan anak-anak kami memiliki perilaku dan perbuatan yang baik, sehingga apa yang terpancar keluar dari perilaku dan perbuatan mereka mencerminkan karakter pribadi yang baik.
                         </li>
                         <li>
-                            <h4>Anak Raja dalam Kristus:</h4>
-                            Kami mengajarkan anak-anak bahwa mereka adalah anak-anak raja dalam Kristus Yesus. Artinya, setiap anak dihargai dan dicintai oleh Tuhan tanpa memandang apa pun.
-                        </li>
-                        <li>
-                            <h4>Belajar yang Menyenangkan:</h4>
-                            Di TK King's Kidz, kita membuat belajar jadi menyenangkan. Anak-anak belajar banyak hal baik, seperti berhitung dan membaca, sambil juga belajar tentang kasih sayang dan kerja sama.
-                        </li>
-                        <li>
-                            <h4>Berkembang sebagai Pribadi Baik:</h4>
-                            Selain pelajaran akademis, kita juga mengajarkan anak-anak menjadi pribadi yang baik. Mereka belajar tentang kejujuran, saling menghormati, dan bagaimana bekerja sama.
-                        </li>
-                        <li>
-                            <h4>Setiap Anak Unik:</h4>
-                            Kami bangga pada keunikan setiap anak. Masing-masing punya kelebihan dan bakat sendiri, dan kita mendukung mereka menemukan dan mengembangkan potensi terbaik mereka.
+                            <h4>Meningkatkan Kemampuan:</h4>
+                            Mengembangkan kemampuan otak anak-anak dalam dunia pendidikan sehingga mereka siap untuk melanjutkan pendidikan dijenjang yang lebih lanjut.
                         </li>
                     </ol>
                 </div>
