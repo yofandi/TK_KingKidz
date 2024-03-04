@@ -76,7 +76,7 @@
                 <div class="container-fluid my-5">
                     <div class="row justify-content-center align-items-center">
                         <div class="col-lg-4 col-md-6 mb-3 mb-lg-0 text-center">
-                            <img src="assets/7125203.png" class="img-fluid contact-map">
+                            <img src="assets/7125203.png" class="img-fluid contact-map" width="400vw">
                         </div>
                     </div>
                     <div class="row justify-content-center align-items-center">
