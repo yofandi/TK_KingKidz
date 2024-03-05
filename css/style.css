@@ -112,8 +112,14 @@ p {
     margin-bottom: 1rem;
 }
 
+.b-example-divider {
+    width: 100%;
+    height: 3rem;
+}
+
 .shadow-xl {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Contoh bayangan dengan warna dan transparansi tertentu */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Contoh bayangan dengan warna dan transparansi tertentu */
 }
 
 .text-gradient {
@@ -244,13 +250,15 @@ p {
     .tk-bgimage {
         width: auto;
         height: 170vh;
-    }    
+    }
+
     .scroll-history {
         height: 30vh;
         /* Atur ketinggian maksimum untuk daftar misi */
         overflow-y: auto;
         /* Tambahkan overflow-y untuk scroll jika konten terlalu panjang */
     }
+
     .contact-map {
         width: 140px;
     }
@@ -261,12 +269,14 @@ p {
         width: auto;
         height: 135vh;
     }
+
     .scroll-history {
         height: 100vh;
         /* Atur ketinggian maksimum untuk daftar misi */
         overflow-y: auto;
         /* Tambahkan overflow-y untuk scroll jika konten terlalu panjang */
     }
+
     .contact-map {
         width: 150vw;
     }
@@ -277,6 +287,7 @@ p {
         width: auto;
         height: 110vh;
     }
+
     .scroll-history {
         height: 80vh;
         /* Atur ketinggian maksimum untuk daftar misi */
@@ -290,6 +301,7 @@ p {
         width: auto;
         height: 90vh;
     }
+
     .scroll-history {
         height: 60vh;
         /* Atur ketinggian maksimum untuk daftar misi */
@@ -632,16 +644,19 @@ ol.f-patrick-hand-regular li {
 .testimonial-img {
     border: 5px;
     width: 30vh;
-    height: 30vh; /* Menggunakan auto untuk menjaga proporsi aspek gambar */
+    height: 30vh;
+    /* Menggunakan auto untuk menjaga proporsi aspek gambar */
     border-radius: 50%;
     margin-bottom: 20px;
     outline: 5px solid #ffc1076c;
 }
 
 .testimony-text {
-    max-width: 500px; /* Atur lebar maksimum yang diinginkan */
+    max-width: 500px;
+    /* Atur lebar maksimum yang diinginkan */
     margin-left: auto;
-    margin-right: auto; /* Untuk membuat paragraf berada di tengah */
+    margin-right: auto;
+    /* Untuk membuat paragraf berada di tengah */
 }
 
 .nav-tabs .nav-link {
@@ -652,13 +667,14 @@ ol.f-patrick-hand-regular li {
     margin-right: 10px;
     font-weight: bold;
     position: relative;
-  }
+}
 
-  .nav-tabs .nav-link.active, .nav-tabs .nav-link:hover {
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link:hover {
     color: #e21e80;
-  }
+}
 
-  .nav-tabs .nav-link.active::after {
+.nav-tabs .nav-link.active::after {
     content: '';
     position: absolute;
     bottom: -2px;
@@ -666,7 +682,7 @@ ol.f-patrick-hand-regular li {
     width: 100%;
     height: 2px;
     background: linear-gradient(135deg, #f5b30c 0%, #e21e80 100%);
-  }
+}
 
 .nav-tabs .nav-link {
     border: none;
@@ -676,13 +692,14 @@ ol.f-patrick-hand-regular li {
     margin-right: 10px;
     font-weight: bold;
     position: relative;
-  }
+}
 
-  .nav-tabs .nav-link.active, .nav-tabs .nav-link:hover {
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link:hover {
     color: #e21e80;
-  }
+}
 
-  .nav-tabs .nav-link.active::after {
+.nav-tabs .nav-link.active::after {
     content: '';
     position: absolute;
     bottom: -2px;
@@ -690,9 +707,9 @@ ol.f-patrick-hand-regular li {
     width: 100%;
     height: 2px;
     background: linear-gradient(135deg, #f5b30c 0%, #e21e80 100%);
-  }
+}
 
-  /* komen */
+/* komen */
 .nav-pills .nav-link {
     border: none;
     background-color: transparent;
@@ -701,13 +718,14 @@ ol.f-patrick-hand-regular li {
     margin-right: 10px;
     font-weight: bold;
     position: relative;
-  }
+}
 
-  .nav-pills .nav-link.active, .nav-pills .nav-link:hover {
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:hover {
     color: #e21e80;
-  }
+}
 
-  .nav-pills .nav-link.active::after {
+.nav-pills .nav-link.active::after {
     content: '';
     position: absolute;
     bottom: -2px;
@@ -715,7 +733,7 @@ ol.f-patrick-hand-regular li {
     width: 100%;
     height: 2px;
     background: linear-gradient(135deg, #f5b30c 0%, #e21e80 100%);
-  }
+}
 
 .nav-pills .nav-link {
     border: none;
@@ -725,13 +743,14 @@ ol.f-patrick-hand-regular li {
     margin-right: 10px;
     font-weight: bold;
     position: relative;
-  }
+}
 
-  .nav-pills .nav-link.active, .nav-pills .nav-link:hover {
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:hover {
     color: #e21e80;
-  }
+}
 
-  .nav-pills .nav-link.active::after {
+.nav-pills .nav-link.active::after {
     content: '';
     position: absolute;
     bottom: -2px;
@@ -739,15 +758,16 @@ ol.f-patrick-hand-regular li {
     width: 100%;
     height: 2px;
     background: linear-gradient(135deg, #f5b30c 0%, #e21e80 100%);
-  }
-  /* end */
+}
 
-  .tab-pane {
+/* end */
+
+.tab-pane {
     padding: 20px;
     border-radius: 5px;
     margin-top: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
+}
 
 /* Gaya CSS untuk membuat bagian Misi lebih responsif */
 @media (max-width: 768px) {
@@ -775,16 +795,19 @@ ol.f-patrick-hand-regular li {
 .gallery {
     position: relative;
     overflow: hidden;
-  }
-  .gallery img {
+}
+
+.gallery img {
     width: 100%;
     height: auto;
     transition: transform 0.3s ease-in-out;
-  }
-  .gallery:hover img {
+}
+
+.gallery:hover img {
     transform: scale(1.1);
-  }
-  .gallery .overlay {
+}
+
+.gallery .overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -797,7 +820,8 @@ ol.f-patrick-hand-regular li {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .gallery:hover .overlay {
+}
+
+.gallery:hover .overlay {
     opacity: 1;
-  }
+}

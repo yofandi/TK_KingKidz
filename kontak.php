@@ -118,7 +118,7 @@
                     </p>
                     <ul class="lead fw-formal">
                         <li>Jam Kerja: 8:00 – 14:00 (Senin - Kamis); 08.00 - 12.00 (Jumat)</li>
-                        <li>Telepon: +62 85000000000 </li>
+                        <li>Kontak: +62 89368685069 </li>
                         <li>Email: info@tkkingskidzsby.com</li>
                     </ul>
                 </div>

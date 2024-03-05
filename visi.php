@@ -90,10 +90,9 @@
     </main>
 
     <!-- visi dan misi -->
-    <div class="h-100">
+    <!-- <div class="h-100">
         <section class="container-fluid">
             <div class="row">
-                <!-- Bagian kiri -->
                 <div class="col-md-6 px-5 py-5 bg-light d-flex justify-content-center align-items-center">
                     <div class="tab-content">
                         <div class="tab-pane fade show active" id="visiImage" role="tabpanel" aria-labelledby="visi-tab" style="border-radius: 50px;">
@@ -104,7 +103,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- Bagian kanan -->
                 <div class="col-md-6 px-5 py-2 d-flex justify-content-center align-items-center">
                     <div>
                         <ul class="nav nav-tabs" id="TabVisiMisi" role="tablist">
@@ -143,6 +141,59 @@
                 </div>
             </div>
         </section>
+    </div> -->
+    <div class="container-fluid my-5">
+        <div id="carouselExample" class="carousel carousel-dark slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="p-5 text-end bg-light rounded-5 tk-bgimage" style="--background: url('../assets/backline.png')">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <!-- <i class="bi bi-fire text-danger" style="font-size: 10rem;"></i> -->
+                                <h1 class="display-1 f-brandSchool text-gradient fw-bold">Visi</h1>
+                                <!-- <p class="col-lg-8 mx-auto lead"></p> -->
+                                <dl class="fs-4 f-brandSchool">
+                                    <dt class="text-muted">Membawa anak untuk takut akan Tuhan dan memiliki karakter Ilahi.</dt>
+                                    <dt class="text-muted">Membimbing anak dengan iman, kasih dan pengetahuan.</li>
+                                    </dt>
+                                    <dt class="text-muted">Membentuk pribadi yang mandiri serta percaya diri.</dt>
+                                </dl>
+                            </div>
+                            <div class="col-lg-4 mt-4">
+                                <img class="img-fluid rounded" src="assets/image/IMG-20230119-WA0005.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="p-5 text-center bg-light rounded-5 tk-bgimage" style="--background: url('../assets/backline2.png')">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-4 mt-5">
+                                <img class="img-fluid rounded" src="assets/image/10november.png" alt="">
+                            </div>
+                            <div class="col-lg-8 text-start">
+                                <!-- <i class="bi bi-gear-wide-connected text-danger" style="font-size: 10rem;"></i> -->
+                                <h1 class="display-1 f-brandSchool text-gradient fw-bold">Misi</h1>
+                                <!-- <p class="col-lg-8 mx-auto lead"></p> -->
+                                <ol class="fs-4 list-numbered f-brandSchool">
+                                    <li class="text-muted">Memberikan pendidikan karakter yang berdasar kepada kebenaran Firman Tuhan.</li>
+                                    <li class="text-muted">Melatih ketaqwaan pribadi dan berwawasan luas.</li>
+                                    <li class="text-muted">Melatih keberanian anak untuk mengaktualisasikan diri dalam keluarga serta masyarakat pada umumnya.</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </div>
 
     <!-- nilai -->
