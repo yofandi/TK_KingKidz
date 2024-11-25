@@ -104,7 +104,7 @@
                                     <div
                                         class="text-start text-gradient-gold-with-shadow text-center ps-5 mt-3 mt-md-4">
                                         <p class="fs-5">
-                                            Jl. Raya Darmo Indah Blok K No.6Tandes Kidul, Kec. Tandes, Surabaya, Jawa
+                                            Jl. Raya Darmo Indah Blok K No.7 Tandes Kidul, Kec. Tandes, Surabaya, Jawa
                                             Timur 60187
                                         </p>
                                         <p class="lead fst-italic">
