@@ -10,7 +10,7 @@
         integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    
+
     <!-- style page -->
     <link rel="stylesheet" href="css/style.css">
     <title>Kontak</title>
@@ -260,36 +260,36 @@
     <!-- boostrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-    </script>
+        </script>
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
-    $('#TabVisiMisi button[data-bs-toggle="tab"]').on('show.bs.tab', function(e) {
-        let target = $(e.target).data('target');
-        $(target)
-            .addClass('active show')
-            .siblings('.tab-pane.active')
-            .removeClass('active show')
-    });
+        $('#TabVisiMisi button[data-bs-toggle="tab"]').on('show.bs.tab', function (e) {
+            let target = $(e.target).data('target');
+            $(target)
+                .addClass('active show')
+                .siblings('.tab-pane.active')
+                .removeClass('active show')
+        });
 
-    (() => {
-        'use strict'
+        (() => {
+            'use strict'
 
-        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-        const forms = document.querySelectorAll('.needs-validation')
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            const forms = document.querySelectorAll('.needs-validation')
 
-        // Loop over them and prevent submission
-        Array.from(forms).forEach(form => {
-            form.addEventListener('submit', event => {
-                if (!form.checkValidity()) {
-                    event.preventDefault()
-                    event.stopPropagation()
-                }
+            // Loop over them and prevent submission
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
 
-                form.classList.add('was-validated')
-            }, false)
-        })
-    })()
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
     </script>
 </body>
 
